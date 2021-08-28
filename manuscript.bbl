@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{Lehtola2021}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9d22c08c2c5ed286d40e1b044bed9407}{%
+           family={Lehtola},
+           familyi={L\bibinitperiod},
+           given={Susi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=84b11627128b73627cc72c1df7a33654}{%
+           family={Karttunen},
+           familyi={K\bibinitperiod},
+           given={Antti},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dabc8511a2c889b3f35a8261154ea0d3}
+      \strng{fullhash}{dabc8511a2c889b3f35a8261154ea0d3}
+      \strng{bibnamehash}{dabc8511a2c889b3f35a8261154ea0d3}
+      \strng{authorbibnamehash}{dabc8511a2c889b3f35a8261154ea0d3}
+      \strng{authornamehash}{dabc8511a2c889b3f35a8261154ea0d3}
+      \strng{authorfullhash}{dabc8511a2c889b3f35a8261154ea0d3}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Long in the making, computational chemistry for the masses [J. Chem. Educ. 1996, 73, 104] is finally here. We point out the existence of a variety of free and open source software (FOSS) packages for computational chemistry that offer a wide range of functionality all the way from approximate semiempirical calculations with tight-binding density functional theory to sophisticated ab initio wave function methods such as coupled-cluster theory, both for molecular and for solid-state systems. By their very definition, FOSS packages allow usage for whatever purpose by anyone, meaning they can also be used in industrial applications without limitation. Also, FOSS software has no limitations to redistribution in source or binary form, allowing their easy distribution and installation by third parties. Many FOSS scientific software packages are available as part of popular Linux distributions, and other package managers such as pip and conda. Combined with the remarkable increase in the power of personal devices—which rival that of the fastest supercomputers in the world of the 1990s—a decentralized model for teaching computational chemistry is now possible, enabling students to perform reasonable modeling on their own computing devices, in the bring your own device (BYOD) scheme. In addition to the programs’ use for various applications, open access to the programs’ source code also enables comprehensive teaching strategies, as actual algorithms’ implementations can be used in teaching. We discuss the availability and use of various FOSS quantum chemistry packages and demonstrate what kinds of calculations are feasible with these programs, assuming only extremely modest computational resources. Our examples confirm that FOSS software enables decentralized approaches to computational chemistry education within the BYOD scheme, affording a democratization of the science of computational chemistry as well.}
+      \field{day}{12}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Free and {{Open Source Software}} for {{Computational Chemistry Education}}}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.33774/chemrxiv-2021-hr1r0
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/QDPWQYWP/Lehtola and Karttunen - 2021 - Free and Open Source Software for Computational Ch.pdf;/Users/leopold/Personal/databases/zotero/storage/URZU5WH2/6112bcd6424ea383d2871edf.html
+      \endverb
+    \endentry
     \entry{Hehre1970}{book}{}
       \name{author}{5}{}{%
         {{hash=1b18c24246a62c23614e0771f5c3276f}{%
@@ -56,8 +93,8 @@
       \strng{authorbibnamehash}{95a5b9813a742905ee968aeb8e5492d9}
       \strng{authornamehash}{95a5b9813a742905ee968aeb8e5492d9}
       \strng{authorfullhash}{13d58eb341509dca6df2719e9dd4a2c3}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Gaussian 70 ({{Quantum Chemistry Program Exchange}}}
@@ -83,8 +120,8 @@
       \strng{authorbibnamehash}{023bbc7991ad2c66032831293ae72461}
       \strng{authornamehash}{023bbc7991ad2c66032831293ae72461}
       \strng{authorfullhash}{023bbc7991ad2c66032831293ae72461}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{day}{1}
@@ -144,8 +181,8 @@
       \strng{authorbibnamehash}{af45b9f6d6428841a3981911cc2dc217}
       \strng{authornamehash}{af45b9f6d6428841a3981911cc2dc217}
       \strng{authorfullhash}{9c05283449d0dfc6f647e0c6e70c1d24}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This article describes recent technical developments that have made the total-energy pseudopotential the most powerful ab initio quantum-mechanical modeling method presently available. In addition to presenting technical details of the pseudopotential method, the article aims to heighten awareness of the capabilities of the method in order to stimulate its application to as wide a range of problems in as many scientific disciplines as possible.}
@@ -192,8 +229,8 @@
       \strng{authorbibnamehash}{29ec9dc876cec62627f40cb6720efd97}
       \strng{authornamehash}{29ec9dc876cec62627f40cb6720efd97}
       \strng{authorfullhash}{29ec9dc876cec62627f40cb6720efd97}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0028-0836, 1476-4687}
@@ -795,8 +832,8 @@
       \strng{authorbibnamehash}{c6226bff45db4023e8731faf1340cc60}
       \strng{authornamehash}{c6226bff45db4023e8731faf1340cc60}
       \strng{authorfullhash}{0ba1d80ef82e179f15c584c1e78d8566}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Specialized computational chemistry packages have permanently reshaped the landscape of chemical and materials science by providing tools to support and guide experimental efforts and for the prediction of atomistic and electronic properties. In this regard, electronic structure packages have played a special role by using first-principle-driven methodologies to model complex chemical and materials processes. Over the past few decades, the rapid development of computing technologies and the tremendous increase in computational power have offered a unique chance to study complex transformations using sophisticated and predictive many-body techniques that describe correlated behavior of electrons in molecular and condensed phase systems at different levels of theory. In enabling these simulations, novel parallel algorithms have been able to take advantage of computational resources to address the polynomial scaling of electronic structure methods. In this paper, we briefly review the NWChem computational chemistry suite, including its history, design principles, parallel tools, current capabilities, outreach, and outlook.}
@@ -834,8 +871,8 @@
       \strng{authorbibnamehash}{489ae657404ae2a22eccc4f507442f4d}
       \strng{authornamehash}{489ae657404ae2a22eccc4f507442f4d}
       \strng{authorfullhash}{489ae657404ae2a22eccc4f507442f4d}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Three parallel algorithms for classical molecular dynamics are presented. The first assigns each processor a fixed subset of atoms; the second assigns each a fixed subset of inter-atomic forces to compute; the third assigns each a fixed spatial region. The algorithms are suitable for molecular dynamics models which can be difficult to parallelize efficiently—those with short-range forces where the neighbors of each atom change rapidly. They can be implemented on any distributed-memory parallel machine which allows for message-passing of data between independently executing processors. The algorithms are tested on a standard Lennard-Jones benchmark problem for system sizes ranging from 500 to 100,000,000 atoms on several parallel supercomputers--the nCUBE 2, Intel iPSC/860 and Paragon, and Cray T3D. Comparing the results to the fastest reported vectorized Cray Y-MP and C90 algorithm shows that the current generation of parallel machines is competitive with conventional vector supercomputers even for small problems. For large problems, the spatial algorithm achieves parallel efficiencies of 90\% and a 1840-node Intel Paragon performs up to 165 faster than a single Cray C9O processor. Trade-offs between the three algorithms and guidelines for adapting them to more complex molecular dynamics simulations are also discussed.}
@@ -1066,8 +1103,8 @@
       \strng{authorbibnamehash}{0dbe8b69ea0afc2268aecd3a5d290aa9}
       \strng{authornamehash}{0dbe8b69ea0afc2268aecd3a5d290aa9}
       \strng{authorfullhash}{ecfc0b8f25ecb4ff1ee31644056d6018}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{CP2K is an open source electronic structure and molecular dynamics software package to perform atomistic simulations of solid-state, liquid, molecular, and biological systems. It is especially aimed at massively parallel and linear-scaling electronic structure methods and state-of-the-art ab initio molecular dynamics simulations. Excellent performance for electronic structure calculations is achieved using novel algorithms implemented for modern high-performance computing systems. This review revisits the main capabilities of CP2K to perform efficient and accurate electronic structure simulations. The emphasis is put on density functional theory and multiple post–Hartree–Fock methods using the Gaussian and plane wave approach and its augmented all-electron extension.}
@@ -1367,8 +1404,8 @@
       \strng{authorbibnamehash}{6945cdd721550a381a27c94b01efe14e}
       \strng{authornamehash}{6945cdd721550a381a27c94b01efe14e}
       \strng{authorfullhash}{73d2d848a5765d0aa3b6aa5ee648c905}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Abinitis a material- and nanostructure-oriented package that implements density-functional theory (DFT) and many-body perturbation theory (MBPT) to find, from first principles, numerous properties including total energy, electronic structure, vibrational and thermodynamic properties, different dielectric and non-linear optical properties, and related spectra. In the special issue to celebrate the 40th anniversary of CPC, published in 2009, a detailed account of Abinitwas included [Gonze et~al. (2009)], and has been amply cited. The present article comes as a follow-up to this 2009 publication. It includes an analysis of the impact that Abinithas had, through for example the bibliometric indicators of the 2009 publication. Links with several other computational materials science projects are described. This article also covers the new capabilities of Abinitthat have been implemented during the last three years, complementing a recent update of the 2009 article published in 2016. Physical and technical developments inside the abinit application are covered, as well as developments provided with the Abinitpackage, such as the multibinitand a-tdepprojects, and related Abinitorganization developments such as AbiPy. The new developments are described with relevant references, input variables, tests, and tutorials. Program summary Program Title: Abinit Program Files doi: http://dx.doi.org/10.17632/csvdrr4d68.1 Licensing provisions: GPLv3 Programming language: Fortran2003, Python Journal reference of previous version: X .Gonze et al, Comput. Phys. Commun. 205 (2016) 106–131 Does the new version supersede the previous version?: Yes. The present 8.10.3 version is now the up-to-date stable version of abinit , and supercedes the 7.10.5 version. Reasons for the new version: New developments Summary of revisions: •Many new capabilities of the main abinit application, related to density-functional theory, density-functional perturbation theory, GW, the Bethe-Salpeter equation, dynamical mean-field theory, etc.•New applications in the package: multibinit (second-principles calculations)and tdep (temperature-dependent properties) Nature of problem: Computing accurately material and nanostructure properties: electronic structure, bond lengths, bond angles, primitive cell, cohesive energy, dielectric properties, vibrational properties, elastic properties, optical properties, magnetic properties, non-linear couplings, electronic and vibrational lifetimes, etc. For large-scale systems, second-principles calculations, building upon the first-principles results, are also possible. Solution method: Software application based on density-functional theory and many-body perturbation theory, pseudopotentials, with plane waves or wavelets as basis functions. Different real-time algorithms are implemented for second-principles calculations.}
@@ -1482,8 +1519,8 @@
       \strng{authorbibnamehash}{78fcc0f646ec262b035bee7bb61118ce}
       \strng{authornamehash}{78fcc0f646ec262b035bee7bb61118ce}
       \strng{authorfullhash}{383f3af1e610b4e30f6acbf952c5a1ca}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Quantum ESPRESSO is an open-source distribution of computer codes for quantum-mechanical materials modeling, based on density-functional theory, pseudopotentials, and plane waves, and renowned for its performance on a wide range of hardware architectures, from laptops to massively parallel computers, as well as for the breadth of its applications. In this paper, we present a motivation and brief review of the ongoing effort to port Quantum ESPRESSO onto heterogeneous architectures based on hardware accelerators, which will overcome the energy constraints that are currently hindering the way toward exascale computing.}
@@ -2388,6 +2425,30 @@
       \endverb
       \keyw{density functional tight-binding theory,multilevel quantum chemistry,semiempirical molecular orbital theory}
     \endentry
+    \entry{LinuxHistory2020}{report}{}
+      \list{institution}{1}{%
+        {The Linux Foundation}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Linux {{Kernel History Report}}}
+      \field{urlday}{25}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/EETGCM5U/2020_kernel_history_report_082720.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.linuxfoundation.org/wp-content/uploads/2020_kernel_history_report_082720.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.linuxfoundation.org/wp-content/uploads/2020_kernel_history_report_082720.pdf
+      \endverb
+    \endentry
     \entry{Danial2021}{software}{}
       \name{author}{1}{}{%
         {{hash=557b6b0995a32b4c5affa7494b7fa7d7}{%
@@ -2535,8 +2596,8 @@
       \strng{authorbibnamehash}{2f18fc23a917fe1f0c74958b593f4e71}
       \strng{authornamehash}{2f18fc23a917fe1f0c74958b593f4e71}
       \strng{authorfullhash}{2f18fc23a917fe1f0c74958b593f4e71}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{As computational researchers increasingly make their results available in a reproducible way, and often outside the traditional journal publishing mechanism, questions naturally arise with regard to copyright, subsequent use and citation, and ownership rights in general. The growing number of scientists who release their research publicly face a gap in the current licensing and copyright structure, particularly on the Internet. Scientific research produces more than the final paper: The code, data structures, experimental design and parameters, documentation, and figures are all important for scholarship communication and result replication. The author proposes the reproducible research standard for scientific researchers to use for all components of their scholarship that should encourage reproducible scientific investigation through attribution, facilitate greater collaboration, and promote engagement of the larger community in scientific learning and discovery.}
@@ -2577,8 +2638,8 @@
       \strng{authorbibnamehash}{d76456a8d36e71abf7d3d9d0075372fe}
       \strng{authornamehash}{d76456a8d36e71abf7d3d9d0075372fe}
       \strng{authorfullhash}{d76456a8d36e71abf7d3d9d0075372fe}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{2}
@@ -2616,8 +2677,8 @@
       \strng{authorbibnamehash}{027c396307e3b4429996ece3a8f3431e}
       \strng{authornamehash}{027c396307e3b4429996ece3a8f3431e}
       \strng{authorfullhash}{027c396307e3b4429996ece3a8f3431e}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{This study examines user support issues concerning open-source software in computational sciences. The literature suggests that there are three main problem areas: transparency, learnability, and usability. Looking at questions asked in user communities for chemistry software projects, the author found that for software supported by feature-based documentation, problems of transparency and learnability are prominent, leading users to have difficulty reconciling disciplinary practices and values with software operations. For software supported by task-based documentation, usability problems were more prominent. The author considers the implications of this study for user support and the role that technical communication could play in developing and supporting open-source projects.}
@@ -3126,6 +3187,42 @@
       \endverb
       \keyw{Cheminformatics,Molecular modeling,Open source,Software}
     \endentry
+    \entry{MolSSI2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=91267f64dafb7aa3c9c13f3c65082911}{%
+           family={MolSSI},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{91267f64dafb7aa3c9c13f3c65082911}
+      \strng{fullhash}{91267f64dafb7aa3c9c13f3c65082911}
+      \strng{bibnamehash}{91267f64dafb7aa3c9c13f3c65082911}
+      \strng{authorbibnamehash}{91267f64dafb7aa3c9c13f3c65082911}
+      \strng{authornamehash}{91267f64dafb7aa3c9c13f3c65082911}
+      \strng{authorfullhash}{91267f64dafb7aa3c9c13f3c65082911}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{24}
+      \field{langid}{american}
+      \field{month}{8}
+      \field{title}{{{MolSSI Software Database}}}
+      \field{urlday}{24}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/KKQ8MJKE/software-search.html
+      \endverb
+      \verb{urlraw}
+      \verb https://molssi.org/software-search/
+      \endverb
+      \verb{url}
+      \verb https://molssi.org/software-search/
+      \endverb
+    \endentry
     \entry{Ghiringhelli2017}{article}{}
       \name{author}{8}{}{%
         {{hash=3307548e12c57708f313558af9a991cd}{%
@@ -3343,6 +3440,440 @@
       \endverb
       \keyw{citation,PIDs,research data,reuse,software,software citation tracking}
     \endentry
+    \entry{g16}{software}{}
+      \name{author}{74}{}{%
+        {{hash=3b0643005c85ad04f2b1bb6b14359d01}{%
+           family={Frisch},
+           familyi={F\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cec3ddb805c6ab68135bae234c81f488}{%
+           family={Trucks},
+           familyi={T\bibinitperiod},
+           given={G.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=352b7ae10d5d2b5e71cbe77279a99cfa}{%
+           family={Schlegel},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=a953b50536651a3468f29d0420ec9a0b}{%
+           family={Scuseria},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=17ddb660d8d898700d8dea4449192b65}{%
+           family={Robb},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=a4bba2781808b5020c9942c36ee68f12}{%
+           family={Cheeseman},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=60c7a5be5cfe65f9035e6aa2fafa95b3}{%
+           family={Scalmani},
+           familyi={S\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9d52a5d36892c73e2bb8b7a3b814715a}{%
+           family={Barone},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e1621fbdbf23865b1c1d5049affbb71f}{%
+           family={Petersson},
+           familyi={P\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2260bdad06eb2c389b97b0bab09267de}{%
+           family={Nakatsuji},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c9a3728dcc2397d1bab78a791b51779b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=85509933fba2859192b4f6c02c234dfb}{%
+           family={Caricato},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=73a3f5f4a64bf3025a6010c146e4cdce}{%
+           family={Marenich},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=1b46e1f440248dc5a47f55e6e4eb57c4}{%
+           family={Bloino},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aee7e74ff3e4880445e11d30c9ede677}{%
+           family={Janesko},
+           familyi={J\bibinitperiod},
+           given={B.\bibnamedelimi G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=d5bd22e66199535c0d5019a0eb26135a}{%
+           family={Gomperts},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=3c3c2e9b7ef055d3f6e58428bcc64d42}{%
+           family={Mennucci},
+           familyi={M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=dcfee1d989d58e9756b56d7eb23cbdda}{%
+           family={Hratchian},
+           familyi={H\bibinitperiod},
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4db6dff62526ddc6a1787791e2cb7a24}{%
+           family={Ortiz},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi V.},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=65b09e6141c94f79131e67e1370852a4}{%
+           family={Izmaylov},
+           familyi={I\bibinitperiod},
+           given={A.\bibnamedelimi F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=4934e3ffda475aaf546f3e988d49ee8d}{%
+           family={Sonnenberg},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=7265e727dccb34d202723a85db8048cd}{%
+           family={Williams-Young},
+           familyi={W\bibinithyphendelim Y\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=28d3227e1d41773646c117e99d2daad7}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a86ae931552110df1dcc9e860f63f733}{%
+           family={Lipparini},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5685bd56985915532a1ddffcad865dc1}{%
+           family={Egidi},
+           familyi={E\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9e949066500034adb6e059d17bf06724}{%
+           family={Goings},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=afab06e759fd5fae0eb97e1c3a6800a7}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=e35b7fba78b7f54a803707ac537073eb}{%
+           family={Petrone},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=00ef4f121f4b67eed2e72de8d091f5df}{%
+           family={Henderson},
+           familyi={H\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fced37795bde52da99a78b01cf621c52}{%
+           family={Ranasinghe},
+           familyi={R\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=25e09827c719d0279a517814ffd70c4e}{%
+           family={Zakrzewski},
+           familyi={Z\bibinitperiod},
+           given={V.\bibnamedelimi G.},
+           giveni={V\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=db78cb9680889168cd377cb6775b53dc}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=609befb2af5f18b1d2777857ec5d407d}{%
+           family={Rega},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=72a20370005f362f6c4a5c07e38cba08}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=c70d84cf13ce75757df8525a12bdeed6}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6516c829d20f798e07042fdf45f394e5}{%
+           family={Hada},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4160b158a6fcfbf4ee8a2d988d61e38b}{%
+           family={Ehara},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c5fe352af64661b4861c42bcd9675e8d}{%
+           family={Toyota},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3edf23825ee17af22b45e18951b5203e}{%
+           family={Fukuda},
+           familyi={F\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4aa8f20f551d7e1737765bd02dcbc9ca}{%
+           family={Hasegawa},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90fbc0c47dc4ef790269d36876ae7364}{%
+           family={Ishida},
+           familyi={I\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1691b726bd145fb9706d847faed2f617}{%
+           family={Nakajima},
+           familyi={N\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=546c21445eb8f17a0ddb430cb2cd3596}{%
+           family={Honda},
+           familyi={H\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a824279852b6c738d4c698de290726c4}{%
+           family={Kitao},
+           familyi={K\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=ff8120b3a6dbbcc5514c784ae974f6c9}{%
+           family={Nakai},
+           familyi={N\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=30a0b53674ae0812f1e5008fba5dd38b}{%
+           family={Vreven},
+           familyi={V\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b7964d4d0358b662637790b370168613}{%
+           family={Throssell},
+           familyi={T\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=5950ebbd8c92cfa0a0276458cb590d70}{%
+           family={Montgomery},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           suffix={Jr.},
+           suffixi={J\bibinitperiod}}}%
+        {{hash=f1af94d7cf323b4b577159d21cf1319f}{%
+           family={Peralta},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=4bfa0f82e86b280283ff29adb29f8af3}{%
+           family={Ogliaro},
+           familyi={O\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=bb7aa089d9b8f6d06d520952ffb73366}{%
+           family={Bearpark},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c2aedbe224160928160c396a68aca359}{%
+           family={Heyd},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=c846f92d3a8ffee0b74a3e6838ed33a4}{%
+           family={Brothers},
+           familyi={B\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=78851119c080ccfee138d5ffc00e3e96}{%
+           family={Kudin},
+           familyi={K\bibinitperiod},
+           given={K.\bibnamedelimi N.},
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=2fdda071c97e81d0a67df37115cbd985}{%
+           family={Staroverov},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi N.},
+           giveni={V\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=ab66b4563a5499cf5da946960451915f}{%
+           family={Keith},
+           familyi={K\bibinitperiod},
+           given={T.\bibnamedelimi A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d0ac5468a442132b6e1cafdbd3b8608d}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b919dbc5b3007d20f19e0a91843551c1}{%
+           family={Normand},
+           familyi={N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1ae71708352c5c0c3cdff3787c1df96a}{%
+           family={Raghavachari},
+           familyi={R\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=59f56e27f2587af95d5becf14e6f48d7}{%
+           family={Rendell},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=685ea1572b905a02f7a56a796d953523}{%
+           family={Burant},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e125376938cacc52b1c930f6ca6a7897}{%
+           family={Iyengar},
+           familyi={I\bibinitperiod},
+           given={S.\bibnamedelimi S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b323d6348490896c79f4eccd356947ac}{%
+           family={Tomasi},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ce7f4aa9acaadcda78858a581b145935}{%
+           family={Cossi},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fce5cac3aca080bba768e31f3ee8e2dc}{%
+           family={Millam},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=31e25aeedec346f55fde4717484790cc}{%
+           family={Klene},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=385f88a66000047a7125e002b54e10ab}{%
+           family={Adamo},
+           familyi={A\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0a670a9e5fddd7ae9fcc92a2f620e210}{%
+           family={Cammi},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=72ea128e8ea0e83f6aa960a14582f4d6}{%
+           family={Ochterski},
+           familyi={O\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=83d04cb4386cefa56aa929a2df34d6be}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=93ef5be37fb3178b9ae14bb7c47a9d2e}{%
+           family={Morokuma},
+           familyi={M\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=95172852b2a71d0e02e505a3ca1339b0}{%
+           family={Farkas},
+           familyi={F\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=56253d2470587482be3e994cd58d3044}{%
+           family={Foresman},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=73de9e9f335024706dcc0b25afd7837e}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd2d23de38937e2a16810fa29d9790be}
+      \strng{fullhash}{d77fd9dedc61d3dacae6ee0341458fa5}
+      \strng{bibnamehash}{dd2d23de38937e2a16810fa29d9790be}
+      \strng{authorbibnamehash}{dd2d23de38937e2a16810fa29d9790be}
+      \strng{authornamehash}{dd2d23de38937e2a16810fa29d9790be}
+      \strng{authorfullhash}{d77fd9dedc61d3dacae6ee0341458fa5}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gaussian 16 {{Revision C}}.01}
+      \field{year}{2016}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Kresse1996a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=40daea6217342757546b996c2086b7b4}{%
+           family={Kresse},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=57a647c73d7595ee4e6070042493941a}{%
+           family={Furthmüller},
+           familyi={F\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{fullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{bibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorbibnamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authornamehash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \strng{authorfullhash}{5c66dda5fc7bfaa5597e78f4995dbab3}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an efficient scheme for calculating the Kohn-Sham ground state of metallic systems using pseudopotentials and a plane-wave basis set. In the first part the application of Pulay’s DIIS method (direct inversion in the iterative subspace) to the iterative diagonalization of large matrices will be discussed. Our approach is stable, reliable, and minimizes the number of order N3atoms operations. In the second part, we will discuss an efficient mixing scheme also based on Pulay’s scheme. A special ‘‘metric’’ and a special ‘‘preconditioning’’ optimized for a plane-wave basis set will be introduced. Scaling of the method will be discussed in detail for non-self-consistent and self-consistent calculations. It will be shown that the number of iterations required to obtain a specific precision is almost independent of the system size. Altogether an order N2atoms scaling is found for systems containing up to 1000 electrons. If we take into account that the number of k points can be decreased linearly with the system size, the overall scaling can approach Natoms. We have implemented these algorithms within a powerful package called VASP (Vienna ab initio simulation package). The program and the techniques have been used successfully for a large number of different systems (liquid and amorphous semiconductors, liquid simple and transition metals, metallic and semiconducting surfaces, phonons in simple metals, transition metals, and semiconductors) and turned out to be very reliable. © 1996 The American Physical Society., This article appears in the following collection:}
+      \field{day}{15}
+      \field{journaltitle}{Physical Review B}
+      \field{month}{10}
+      \field{number}{16}
+      \field{shortjournal}{Phys. Rev. B}
+      \field{title}{Efficient Iterative Schemes for Ab Initio Total-Energy Calculations Using a Plane-Wave Basis Set}
+      \field{volume}{54}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{11169\bibrangedash 11186}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.54.11169
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/YI645YEB/Kresse and Furthmüller - 1996 - Efficient iterative schemes for ab initio total-en.pdf;/Users/leopold/Personal/databases/zotero/storage/C4HGNK99/PhysRevB.54.html
+      \endverb
+    \endentry
     \entry{Clark2005}{article}{}
       \name{author}{7}{}{%
         {{hash=ef9e7678a33d177b7c0e9195a5dd7bd3}{%
@@ -3390,8 +3921,8 @@
       \strng{authorbibnamehash}{6ea75a05c423be917c67ca729b588919}
       \strng{authornamehash}{6ea75a05c423be917c67ca729b588919}
       \strng{authorfullhash}{cf33354aecb653a94e31a8d502594767}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The CASTEP code for first principles electronic structure calculations will be described. A brief, non-technical overview will be given and some of the features and capabilities highlighted. Some features which are unique to CASTEP will be described and near-future development plans outlined.}
@@ -3412,6 +3943,459 @@
       \endverb
       \verb{file}
       \verb /Users/leopold/Personal/databases/zotero/storage/DG7ZYHHE/Clark et al. - 2005 - First principles methods using CASTEP.pdf;/Users/leopold/Personal/databases/zotero/storage/VS5SAFGB/html.html
+      \endverb
+    \endentry
+    \entry{Aidas2014}{article}{}
+      \name{author}{84}{}{%
+        {{hash=51c1e0de188b718c2b73dc4c8251d2f6}{%
+           family={Aidas},
+           familyi={A\bibinitperiod},
+           given={Kestutis},
+           giveni={K\bibinitperiod}}}%
+        {{hash=2a087ea83e19105b59c6284ad2f7bab4}{%
+           family={Angeli},
+           familyi={A\bibinitperiod},
+           given={Celestino},
+           giveni={C\bibinitperiod}}}%
+        {{hash=c009fa2a61db62f9f46106514756b73e}{%
+           family={Bak},
+           familyi={B\bibinitperiod},
+           given={Keld\bibnamedelima L.},
+           giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=e33ac906a6ce32b616e70fb310610d58}{%
+           family={Bakken},
+           familyi={B\bibinitperiod},
+           given={Vebjørn},
+           giveni={V\bibinitperiod}}}%
+        {{hash=9a5701030e564fd66a92493f048b094e}{%
+           family={Bast},
+           familyi={B\bibinitperiod},
+           given={Radovan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=385fda264fa3f8e93c7217c74797e6c3}{%
+           family={Boman},
+           familyi={B\bibinitperiod},
+           given={Linus},
+           giveni={L\bibinitperiod}}}%
+        {{hash=202d2f0ba5b247ff350dc3272aaedbf3}{%
+           family={Christiansen},
+           familyi={C\bibinitperiod},
+           given={Ove},
+           giveni={O\bibinitperiod}}}%
+        {{hash=b62bc6b05427b8023cbe4b0d19e00a3f}{%
+           family={Cimiraglia},
+           familyi={C\bibinitperiod},
+           given={Renzo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=98f8c6c8d8590b93c1f0fab29c5258cd}{%
+           family={Coriani},
+           familyi={C\bibinitperiod},
+           given={Sonia},
+           giveni={S\bibinitperiod}}}%
+        {{hash=13aaf127c598a91fb92aeea437eb4027}{%
+           family={Dahle},
+           familyi={D\bibinitperiod},
+           given={Pål},
+           giveni={P\bibinitperiod}}}%
+        {{hash=1388832a33de0da1d02b8cfd45bde563}{%
+           family={Dalskov},
+           familyi={D\bibinitperiod},
+           given={Erik\bibnamedelima K.},
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=1947b044a8648a1e66a5c5fc69dc4313}{%
+           family={Ekström},
+           familyi={E\bibinitperiod},
+           given={Ulf},
+           giveni={U\bibinitperiod}}}%
+        {{hash=f8d84c3124fd3d7022c3dfe0d0782e68}{%
+           family={Enevoldsen},
+           familyi={E\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8b7bdc35772fad6d8ee2708010f49dce}{%
+           family={Eriksen},
+           familyi={E\bibinitperiod},
+           given={Janus\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=93cb15adb22f450e82ea8e5c0eefdf94}{%
+           family={Ettenhuber},
+           familyi={E\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=15df09499c9ff2f4dc0671447b9a1e4e}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Berta},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3635124d4dc73ec201d8795dec458068}{%
+           family={Ferrighi},
+           familyi={F\bibinitperiod},
+           given={Lara},
+           giveni={L\bibinitperiod}}}%
+        {{hash=078aadf342a7190dd615f9675e8fd9de}{%
+           family={Fliegl},
+           familyi={F\bibinitperiod},
+           given={Heike},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a580efc408069a5677a88514fa50d6b2}{%
+           family={Frediani},
+           familyi={F\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=96bf74ef79de4de0b054155714cd083f}{%
+           family={Hald},
+           familyi={H\bibinitperiod},
+           given={Kasper},
+           giveni={K\bibinitperiod}}}%
+        {{hash=1c3ac444fbaf7c9defa70af4bce4b119}{%
+           family={Halkier},
+           familyi={H\bibinitperiod},
+           given={Asger},
+           giveni={A\bibinitperiod}}}%
+        {{hash=56d4a7c5b5a149a25dd272c3f3b45d72}{%
+           family={Hättig},
+           familyi={H\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7cb0baa3c23e3d35e6f1858565b0fb27}{%
+           family={Heiberg},
+           familyi={H\bibinitperiod},
+           given={Hanne},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a65eee852e05c2429d195ae5885b369c}{%
+           family={Helgaker},
+           familyi={H\bibinitperiod},
+           given={Trygve},
+           giveni={T\bibinitperiod}}}%
+        {{hash=2bc980878ce2a2764c83d36a931ac8ce}{%
+           family={Hennum},
+           familyi={H\bibinitperiod},
+           given={Alf\bibnamedelima Christian},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=769f11bcaa1166d4d3c64e83b9820e1d}{%
+           family={Hettema},
+           familyi={H\bibinitperiod},
+           given={Hinne},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3204b6f9963a4034f6bda6f3b7a34ddb}{%
+           family={Hjertenæs},
+           familyi={H\bibinitperiod},
+           given={Eirik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=d05d6238ff0b770502e00b2d09860f3c}{%
+           family={Høst},
+           familyi={H\bibinitperiod},
+           given={Stinne},
+           giveni={S\bibinitperiod}}}%
+        {{hash=89bfc0760fae6a2657da54a4f82751fc}{%
+           family={Høyvik},
+           familyi={H\bibinitperiod},
+           given={Ida-Marie},
+           giveni={I\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=dd9f5d05f9caccdd8a6728630849d281}{%
+           family={Iozzi},
+           familyi={I\bibinitperiod},
+           given={Maria\bibnamedelima Francesca},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=08ae9e02100acff90b6df3210f1b59ec}{%
+           family={Jansík},
+           familyi={J\bibinitperiod},
+           given={Branislav},
+           giveni={B\bibinitperiod}}}%
+        {{hash=be944eb14773f13c1f2ea0979d217730}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Hans\bibnamedelimb Jørgen\bibnamedelima Aa},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=81f0b865fcef8ad3ddeda0f5a329450c}{%
+           family={Jonsson},
+           familyi={J\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ecf8eeba955a1abcd1c706863bf3f99a}{%
+           family={Jørgensen},
+           familyi={J\bibinitperiod},
+           given={Poul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3ba1989c4fb7c4dbb68ad8673589512b}{%
+           family={Kauczor},
+           familyi={K\bibinitperiod},
+           given={Joanna},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d02f56daad54b89ff624db6ed140d54b}{%
+           family={Kirpekar},
+           familyi={K\bibinitperiod},
+           given={Sheela},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e97cd877a77fc886cb6eade12d8b9d1f}{%
+           family={Kjærgaard},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=732e71cb123168c6aadaabb11f549747}{%
+           family={Klopper},
+           familyi={K\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod}}}%
+        {{hash=33cb54c1a4be85a57d6f0baf7633f932}{%
+           family={Knecht},
+           familyi={K\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=056c171bdc03911b5c8e5b5b2bb49e48}{%
+           family={Kobayashi},
+           familyi={K\bibinitperiod},
+           given={Rika},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e80e7445330320adaffcecdbcc6bbaba}{%
+           family={Koch},
+           familyi={K\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fdc09e9b57add6260b03f6506c23ecad}{%
+           family={Kongsted},
+           familyi={K\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=d01727fa82618bc529f3e8f28fbc46c7}{%
+           family={Krapp},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=af4021d811c7c338149b137bba43dfce}{%
+           family={Kristensen},
+           familyi={K\bibinitperiod},
+           given={Kasper},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9d1204c9cfa9b9cab859291b7ec23a22}{%
+           family={Ligabue},
+           familyi={L\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bb3f439bdc80a749d6cb3f9ab80e475b}{%
+           family={Lutnæs},
+           familyi={L\bibinitperiod},
+           given={Ola\bibnamedelima B.},
+           giveni={O\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=9db5fc6806aca4bd2753bad50a268498}{%
+           family={Melo},
+           familyi={M\bibinitperiod},
+           given={Juan\bibnamedelima I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=0afd733757539a69e72a45e788484012}{%
+           family={Mikkelsen},
+           familyi={M\bibinitperiod},
+           given={Kurt\bibnamedelima V.},
+           giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=b0052ec347cd1d1978b61704ca95b93b}{%
+           family={Myhre},
+           familyi={M\bibinitperiod},
+           given={Rolf\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2ca022a48557b6a76145689bf17bd99c}{%
+           family={Neiss},
+           familyi={N\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6099102630a94ee3fd59e1a042121b78}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Christian\bibnamedelima B.},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=849075f9e5d2193a6071a6996c50e1bc}{%
+           family={Norman},
+           familyi={N\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e0162f991fd7816fdf3c9b0a60d56798}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={Jeppe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=40ba6e85eb2656cd56608e6a5a74722f}{%
+           family={Olsen},
+           familyi={O\bibinitperiod},
+           given={Jógvan\bibnamedelimb Magnus\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=6a07fbd7670ed07dc3cc3953ce3c1dcd}{%
+           family={Osted},
+           familyi={O\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c674e00b63551a7f0c59c74b1d3834a0}{%
+           family={Packer},
+           familyi={P\bibinitperiod},
+           given={Martin\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=4b97523affb64b7c7f44c87cbc278ecb}{%
+           family={Pawlowski},
+           familyi={P\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b9bbd74360fb662ed57fa49a9a75ce3d}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima B.},
+           giveni={T\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=4f77cbde7e2869f53e926c004d136016}{%
+           family={Provasi},
+           familyi={P\bibinitperiod},
+           given={Patricio\bibnamedelima F.},
+           giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=bc6d03fba0a363addfc4ffc6be547ce6}{%
+           family={Reine},
+           familyi={R\bibinitperiod},
+           given={Simen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=1efe0ab8acd3b447468c01e674e1d9c4}{%
+           family={Rinkevicius},
+           familyi={R\bibinitperiod},
+           given={Zilvinas},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=04a27f05f08af7be2083be5f49cb6159}{%
+           family={Ruden},
+           familyi={R\bibinitperiod},
+           given={Torgeir\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=490c3cfbde1764c11a5338f6962d2e20}{%
+           family={Ruud},
+           familyi={R\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=78cf28e014b2b5eb0be8d91188b9d07c}{%
+           family={Rybkin},
+           familyi={R\bibinitperiod},
+           given={Vladimir\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=e307deb5a53096a51d1bf1ed9c682571}{%
+           family={Sałek},
+           familyi={S\bibinitperiod},
+           given={Pawel},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9dfae3efdb84bcdcf38d5404ff5b3b12}{%
+           family={Samson},
+           familyi={S\bibinitperiod},
+           given={Claire\bibnamedelimb C.\bibnamedelimi M.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7fe931db677f9a5604395df4457cd0d2}{%
+           family={Merás},
+           familyi={M\bibinitperiod},
+           given={Alfredo\bibnamedelima Sánchez},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=9e42fcc29ffdfe101fe233812ecf0ed9}{%
+           family={Saue},
+           familyi={S\bibinitperiod},
+           given={Trond},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e562abc9d8d7269c66d9b20daf72f6d9}{%
+           family={Sauer},
+           familyi={S\bibinitperiod},
+           given={Stephan\bibnamedelimb P.\bibnamedelimi A.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=56c27b65554e4e3ea2b9a11b3bea39f0}{%
+           family={Schimmelpfennig},
+           familyi={S\bibinitperiod},
+           given={Bernd},
+           giveni={B\bibinitperiod}}}%
+        {{hash=41be87ab1a0dbe3ddbd01fb10e6eda1b}{%
+           family={Sneskov},
+           familyi={S\bibinitperiod},
+           given={Kristian},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d1b44dc5d85ee3ae5da9feacdf5fdf22}{%
+           family={Steindal},
+           familyi={S\bibinitperiod},
+           given={Arnfinn\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=b5572f132e27bdcb0c1a3097ee4cdc47}{%
+           family={Sylvester-Hvid},
+           familyi={S\bibinithyphendelim H\bibinitperiod},
+           given={Kristian\bibnamedelima O.},
+           giveni={K\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=6d1617bc302b725966a19d84679af0eb}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Peter\bibnamedelima R.},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=e6b7b5c241d30cc49816849433b4fcc8}{%
+           family={Teale},
+           familyi={T\bibinitperiod},
+           given={Andrew\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2c531e64c8f6f5ced018c257ac70af11}{%
+           family={Tellgren},
+           familyi={T\bibinitperiod},
+           given={Erik\bibnamedelima I.},
+           giveni={E\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=09ebf1547bcc95b88ca13563d9f04163}{%
+           family={Tew},
+           familyi={T\bibinitperiod},
+           given={David\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=493fab31849f15b130986c9edd7400d2}{%
+           family={Thorvaldsen},
+           familyi={T\bibinitperiod},
+           given={Andreas\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=29a8462d45a5aaa2568d2f36b2fed656}{%
+           family={Thøgersen},
+           familyi={T\bibinitperiod},
+           given={Lea},
+           giveni={L\bibinitperiod}}}%
+        {{hash=eae82d53dcc4e80e3d712c45e3e1f5a6}{%
+           family={Vahtras},
+           familyi={V\bibinitperiod},
+           given={Olav},
+           giveni={O\bibinitperiod}}}%
+        {{hash=a82690011a557b52dad2897c3bbc1006}{%
+           family={Watson},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9352fad618184e8f643ba5586b0d2a3d}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelimb J.\bibnamedelimi D.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=7e9ed7ea84df10968424350adf7f3200}{%
+           family={Ziolkowski},
+           familyi={Z\bibinitperiod},
+           given={Marcin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5e9fb51e4bd7fc5f1cef6c4380ce928d}{%
+           family={Ågren},
+           familyi={Å\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb22112fb2dc966961c67efa8092ac8a}
+      \strng{fullhash}{0ca67fa98d2c4661822a3c8e8b81681a}
+      \strng{bibnamehash}{bb22112fb2dc966961c67efa8092ac8a}
+      \strng{authorbibnamehash}{bb22112fb2dc966961c67efa8092ac8a}
+      \strng{authornamehash}{bb22112fb2dc966961c67efa8092ac8a}
+      \strng{authorfullhash}{0ca67fa98d2c4661822a3c8e8b81681a}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Dalton is a powerful general-purpose program system for the study of molecular electronic structure at the Hartree–Fock, Kohn–Sham, multiconfigurational self-consistent-field, Møller–Plesset, configuration-interaction, and coupled-cluster levels of theory. Apart from the total energy, a wide variety of molecular properties may be calculated using these electronic-structure models. Molecular gradients and Hessians are available for geometry optimizations, molecular dynamics, and vibrational studies, whereas magnetic resonance and optical activity can be studied in a gauge-origin-invariant manner. Frequency-dependent molecular properties can be calculated using linear, quadratic, and cubic response theory. A large number of singlet and triplet perturbation operators are available for the study of one-, two-, and three-photon processes. Environmental effects may be included using various dielectric-medium and quantum-mechanics/molecular-mechanics models. Large molecules may be studied using linear-scaling and massively parallel algorithms. Dalton is distributed at no cost from http://www.daltonprogram.org for a number of UNIX platforms. This article is categorized under: Software {$>$} Quantum Chemistry}
+      \field{annotation}{\_eprint: https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wcms.1172}
+      \field{issn}{1759-0884}
+      \field{journaltitle}{WIREs Computational Molecular Science}
+      \field{number}{3}
+      \field{title}{The {{Dalton}} Quantum Chemistry Program System}
+      \field{volume}{4}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \field{pages}{269\bibrangedash 284}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1002/wcms.1172
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/7ZQSL6AR/Aidas et al. - 2014 - The Dalton quantum chemistry program system.pdf;/Users/leopold/Personal/databases/zotero/storage/FEPID7W2/wcms.html
       \endverb
     \endentry
     \entry{Meunier2021}{article}{}
@@ -3459,6 +4443,62 @@
       \verb /Users/leopold/Personal/databases/zotero/storage/8C9WTHYK/Meunier and Robertson - 2021 - Materials Studio 20th anniversary.pdf;/Users/leopold/Personal/databases/zotero/storage/BWM2L477/08927022.2021.html
       \endverb
     \endentry
+    \entry{Neese2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=fff80c744c5a0bff437149b6520d03a2}{%
+           family={Neese},
+           familyi={N\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=479d3c1b62dca83b50c547b64ef14550}{%
+           family={Wennmohs},
+           familyi={W\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4a8226648fdaed1a7f599c416547fa25}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Ute},
+           giveni={U\bibinitperiod}}}%
+        {{hash=cc5d3f563f0054f591164f151a94881c}{%
+           family={Riplinger},
+           familyi={R\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{e00079e469179bd0790ba8a26c89669e}
+      \strng{fullhash}{253094cd60cbbb36ca4569d9b1892b26}
+      \strng{bibnamehash}{e00079e469179bd0790ba8a26c89669e}
+      \strng{authorbibnamehash}{e00079e469179bd0790ba8a26c89669e}
+      \strng{authornamehash}{e00079e469179bd0790ba8a26c89669e}
+      \strng{authorfullhash}{253094cd60cbbb36ca4569d9b1892b26}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this contribution to the special software-centered issue, the ORCA program package is described. We start with a short historical perspective of how the project began and go on to discuss its current feature set. ORCA has grown into a rather comprehensive general-purpose package for theoretical research in all areas of chemistry and many neighboring disciplines such as materials sciences and biochemistry. ORCA features density functional theory, a range of wavefunction based correlation methods, semi-empirical methods, and even force-field methods. A range of solvation and embedding models is featured as well as a complete intrinsic to ORCA quantum mechanics/molecular mechanics engine. A specialty of ORCA always has been a focus on transition metals and spectroscopy as well as a focus on applicability of the implemented methods to “real-life” chemical applications involving systems with a few hundred atoms. In addition to being efficient, user friendly, and, to the largest extent possible, platform independent, ORCA features a number of methods that are either unique to ORCA or have been first implemented in the course of the ORCA development. Next to a range of spectroscopic and magnetic properties, the linear- or low-order single- and multi-reference local correlation methods based on pair natural orbitals (domain based local pair natural orbital methods) should be mentioned here. Consequently, ORCA is a widely used program in various areas of chemistry and spectroscopy with a current user base of over 22 000 registered users in academic research and in industry.}
+      \field{day}{12}
+      \field{issn}{0021-9606}
+      \field{journaltitle}{The Journal of Chemical Physics}
+      \field{month}{6}
+      \field{number}{22}
+      \field{shortjournal}{J. Chem. Phys.}
+      \field{title}{The {{ORCA}} Quantum Chemistry Program Package}
+      \field{volume}{152}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{224108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0004608
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/P6AKLHA9/Neese et al. - 2020 - The ORCA quantum chemistry program package.pdf;/Users/leopold/Personal/databases/zotero/storage/V5NYVG94/Neese et al. - 2020 - The ORCA quantum chemistry program package.pdf;/Users/leopold/Personal/databases/zotero/storage/ZW76AP57/5.html
+      \endverb
+    \endentry
     \entry{Dubbeldam2016a}{article}{}
       \name{author}{4}{}{%
         {{hash=c8af7042d71549e457f11f4752a943ea}{%
@@ -3491,8 +4531,8 @@
       \strng{authorbibnamehash}{d0a9d4db7ed0b51b165232cd581b2114}
       \strng{authornamehash}{d0a9d4db7ed0b51b165232cd581b2114}
       \strng{authorfullhash}{6f234d183a9edac691fd254fcb8c8bf0}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{A new software package, RASPA, for simulating adsorption and diffusion of molecules in flexible nanoporous materials is presented. The code implements the latest state-of-the-art algorithms for molecular dynamics and Monte Carlo (MC) in various ensembles including symplectic/measure-preserving integrators, Ewald summation, configurational-bias MC, continuous fractional component MC, reactive MC and Baker's minimisation. We show example applications of RASPA in computing coexistence properties, adsorption isotherms for single and multiple components, self- and collective diffusivities, reaction systems and visualisation. The software is released under the GNU General Public License.}
@@ -3774,8 +4814,9 @@
       \strng{authorbibnamehash}{82e4bff563c82784b765c7573114c8af}
       \strng{authornamehash}{82e4bff563c82784b765c7573114c8af}
       \strng{authorfullhash}{36a85336f1a18a658e7abd8feca58949}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{PySCF is a Python-based general-purpose electronic structure platform that supports first-principles simulations of molecules and solids as well as accelerates the development of new methodology and complex computational workflows. This paper explains the design and philosophy behind PySCF that enables it to meet these twin objectives. With several case studies, we show how users can easily implement their own methods using PySCF as a development environment. We then summarize the capabilities of PySCF for molecular and solid-state simulations. Finally, we describe the growing ecosystem of projects that use PySCF across the domains of quantum chemistry, materials science, machine learning, and quantum information science.}
@@ -3813,8 +4854,8 @@
       \strng{authorbibnamehash}{1de45261541132066ac7e53f9f067788}
       \strng{authornamehash}{1de45261541132066ac7e53f9f067788}
       \strng{authorfullhash}{1de45261541132066ac7e53f9f067788}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{In this article we'll take a look at the trends of open source license usage in 2021 and compare them to previous years.}
@@ -3849,8 +4890,8 @@
       \strng{authorbibnamehash}{82cb9592fbf9eb68691c143bc57e4110}
       \strng{authornamehash}{82cb9592fbf9eb68691c143bc57e4110}
       \strng{authorfullhash}{82cb9592fbf9eb68691c143bc57e4110}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{17}
@@ -3872,6 +4913,60 @@
       \verb https://ncses.nsf.gov/pubs/nsb20206/
       \endverb
     \endentry
+    \entry{Mammola2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b18a53a40a13dd49f475d7edf1c5ad61}{%
+           family={Mammola},
+           familyi={M\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fa66afb534e6b746d0c9dd8b913d30aa}{%
+           family={Fontaneto},
+           familyi={F\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a10b86476b11905497106bc010370338}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+        {{hash=04029bd39d344092c300179ff288a22b}{%
+           family={Chichorro},
+           familyi={C\bibinitperiod},
+           given={Filipe},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{66f9c9cef01b2a6902abe2c0b5467289}
+      \strng{fullhash}{b86c1bfef94aa9fa694ddf6ecac1536b}
+      \strng{bibnamehash}{66f9c9cef01b2a6902abe2c0b5467289}
+      \strng{authorbibnamehash}{66f9c9cef01b2a6902abe2c0b5467289}
+      \strng{authornamehash}{66f9c9cef01b2a6902abe2c0b5467289}
+      \strng{authorfullhash}{b86c1bfef94aa9fa694ddf6ecac1536b}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many believe that the quality of a scientific publication is as good as the science it cites. However, quantifications of how features of reference lists affect citations remain sparse. We examined seven numerical characteristics of reference lists of 50,878 research articles published in 17 ecological journals between 1997 and 2017. Over this period, significant changes occurred in reference lists’ features. On average, more recent papers have longer reference lists and cite more high Impact Factor papers and fewer non-journal publications. We also show that highly cited articles across the ecological literature have longer reference lists, cite more recent and impactful references, and include more self-citations. Conversely, the proportion of ‘classic’ papers and non-journal publications cited, as well as the temporal span of the reference list, have no significant influence on articles’ citations. From this analysis, we distill a recipe for crafting impactful reference lists, at least in ecology.}
+      \field{day}{1}
+      \field{issn}{1588-2861}
+      \field{journaltitle}{Scientometrics}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shortjournal}{Scientometrics}
+      \field{title}{Impact of the Reference List Features on the Number of Citations}
+      \field{volume}{126}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{pages}{785\bibrangedash 799}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s11192-020-03759-0
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/6IUCDNTE/Mammola et al. - 2021 - Impact of the reference list features on the numbe.pdf
+      \endverb
+    \endentry
     \entry{Satell2019}{article}{}
       \name{author}{1}{}{%
         {{hash=acd8f7a92b645abd199d042e3b550831}{%
@@ -3886,8 +4981,8 @@
       \strng{authorbibnamehash}{acd8f7a92b645abd199d042e3b550831}
       \strng{authornamehash}{acd8f7a92b645abd199d042e3b550831}
       \strng{authorfullhash}{acd8f7a92b645abd199d042e3b550831}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{17}
@@ -3910,6 +5005,297 @@
       \verb{url}
       \verb https://www.barrons.com/articles/the-trillion-dollar-potential-in-crispr-materials-science-and-quantum-computing-51550412044
       \endverb
+    \endentry
+    \entry{Lehtola2018}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9d22c08c2c5ed286d40e1b044bed9407}{%
+           family={Lehtola},
+           familyi={L\bibinitperiod},
+           given={Susi},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3b47509ad8e3b1c7475c180253ce2548}{%
+           family={Steigemann},
+           familyi={S\bibinitperiod},
+           given={Conrad},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d5067b9d44c52862d6e0856812115ed6}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Micael\bibnamedelimb J.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=da7b6d81edf242e9331544c871c2078b}{%
+           family={Marques},
+           familyi={M\bibinitperiod},
+           given={Miguel\bibnamedelimb A.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{691593b0abfa5c19648aabc178f1ee41}
+      \strng{fullhash}{9f4c0a8ad49d26593759be3299b691dd}
+      \strng{bibnamehash}{691593b0abfa5c19648aabc178f1ee41}
+      \strng{authorbibnamehash}{691593b0abfa5c19648aabc178f1ee41}
+      \strng{authornamehash}{691593b0abfa5c19648aabc178f1ee41}
+      \strng{authorfullhash}{9f4c0a8ad49d26593759be3299b691dd}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{libxc is a library of exchange–correlation functionals for density-functional theory. We are concerned with semi-local functionals (or the semi-local part of hybrid functionals), namely local-density approximations, generalized-gradient approximations, and meta-generalized-gradient approximations. Currently we include around 400 functionals for the exchange, correlation, and the kinetic energy, spanning more than 50 years of research. Moreover, libxc is by now used by more than 20 codes, not only from the atomic, molecular, and solid-state physics, but also from the quantum chemistry communities.}
+      \field{day}{1}
+      \field{issn}{2352-7110}
+      \field{journaltitle}{SoftwareX}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shortjournal}{SoftwareX}
+      \field{title}{Recent Developments in Libxc — {{A}} Comprehensive Library of Functionals for Density Functional Theory}
+      \field{volume}{7}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.softx.2017.11.002
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/V8UM9GES/Lehtola et al. - 2018 - Recent developments in libxc — A comprehensive lib.pdf;/Users/leopold/Personal/databases/zotero/storage/IYTYBL58/S2352711017300602.html
+      \endverb
+      \keyw{Density functional theory,Exchange–correlation,Generalized gradient approximations,Local density approximations,meta-GGA approximations}
+    \endentry
+    \entry{Valeyev2021}{software}{}
+      \name{author}{1}{}{%
+        {{hash=429b4936a3a2d3ee7deb53e326984def}{%
+           family={Valeyev},
+           familyi={V\bibinitperiod},
+           given={Edward\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{429b4936a3a2d3ee7deb53e326984def}
+      \strng{fullhash}{429b4936a3a2d3ee7deb53e326984def}
+      \strng{bibnamehash}{429b4936a3a2d3ee7deb53e326984def}
+      \strng{authorbibnamehash}{429b4936a3a2d3ee7deb53e326984def}
+      \strng{authornamehash}{429b4936a3a2d3ee7deb53e326984def}
+      \strng{authorfullhash}{429b4936a3a2d3ee7deb53e326984def}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A library for the evaluation of molecular integrals of many-body operators over Gaussian functions}
+      \field{day}{12}
+      \field{hour}{12}
+      \field{minute}{38}
+      \field{month}{8}
+      \field{origday}{13}
+      \field{orighour}{21}
+      \field{origminute}{17}
+      \field{origmonth}{8}
+      \field{origsecond}{6}
+      \field{origtimezone}{Z}
+      \field{origyear}{2013}
+      \field{second}{28}
+      \field{timezone}{Z}
+      \field{title}{Libint}
+      \field{urlday}{24}
+      \field{urlmonth}{8}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{origdateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/evaleev/libint
+      \endverb
+      \verb{url}
+      \verb https://github.com/evaleev/libint
+      \endverb
+    \endentry
+    \entry{Yu2020}{article}{}
+      \name{author}{19}{}{%
+        {{hash=d98d78ddf15752a0ccb8c63a9d6dc697}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Victor\bibnamedelima Wen-zhe},
+           giveni={V\bibinitperiod\bibinitdelim W\bibinithyphendelim z\bibinitperiod}}}%
+        {{hash=137c7f67edd13237711ea7458626bca0}{%
+           family={Campos},
+           familyi={C\bibinitperiod},
+           given={Carmen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0164dde4cecb0833c5dd11ba16d42e94}{%
+           family={Dawson},
+           familyi={D\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=533280526fe19e3c9f89e65e09ee0b1d}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d18a964bbc7d62c0bfc2debadf04ca34}{%
+           family={Havu},
+           familyi={H\bibinitperiod},
+           given={Ville},
+           giveni={V\bibinitperiod}}}%
+        {{hash=d49fb2526c903152c40e28332f35dbf3}{%
+           family={Hourahine},
+           familyi={H\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=8357b7ca865df327808a93ce2ad86a59}{%
+           family={Huhn},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima P.},
+           giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=b0342cce0c50c5c5182487d2c2da83d2}{%
+           family={Jacquelin},
+           familyi={J\bibinitperiod},
+           given={Mathias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=38093f186b30f81cfd6383a0e4f7f27a}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Weile},
+           giveni={W\bibinitperiod}}}%
+        {{hash=dbb0c304c6f0ca9807b6df56032a6390}{%
+           family={Keçeli},
+           familyi={K\bibinitperiod},
+           given={Murat},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4c37831682b57e8f1a0b36c4321bff69}{%
+           family={Laasner},
+           familyi={L\bibinitperiod},
+           given={Raul},
+           giveni={R\bibinitperiod}}}%
+        {{hash=621ce1d6ab2cbbe30cc75daea6d05dfc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yingzhou},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fb72b03bb0004672eb40dd00cb76bdcd}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod}}}%
+        {{hash=54ca88eda8f2fbc2f0b9ce77c9aed27a}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Jianfeng},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fde83f6b49ccbee8df2d1bbe3860d083}{%
+           family={Moussa},
+           familyi={M\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c565a90c3612c76ef58cacd05f6fac66}{%
+           family={Roman},
+           familyi={R\bibinitperiod},
+           given={Jose\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=263a89e57bd91c0f5e788a12278e6e83}{%
+           family={Vázquez-Mayagoitia},
+           familyi={V\bibinithyphendelim M\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=454ea16c1c785e565fba3d4d6241e59b}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=05c9ea506a848f5088560859735eea2c}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ce33fba7243ac1a3886afb8764a918f9}
+      \strng{fullhash}{9f463d65c6d8617dcb7b88ce9cfff2d7}
+      \strng{bibnamehash}{ce33fba7243ac1a3886afb8764a918f9}
+      \strng{authorbibnamehash}{ce33fba7243ac1a3886afb8764a918f9}
+      \strng{authornamehash}{ce33fba7243ac1a3886afb8764a918f9}
+      \strng{authorfullhash}{9f463d65c6d8617dcb7b88ce9cfff2d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Routine applications of electronic structure theory to molecules and periodic systems need to compute the electron density from given Hamiltonian and, in case of non-orthogonal basis sets, overlap matrices. System sizes can range from few to thousands or, in some examples, millions of atoms. Different discretization schemes (basis sets) and different system geometries (finite non-periodic vs. infinite periodic boundary conditions) yield matrices with different structures. The ELectronic Structure Infrastructure (ELSI) project provides an open-source software interface to facilitate the implementation and optimal use of high-performance solver libraries covering cubic scaling eigensolvers, linear scaling density-matrix-based algorithms, and other reduced scaling methods in between. In this paper, we present recent improvements and developments inside ELSI, mainly covering (1) new solvers connected to the interface, (2) matrix layout and communication adapted for parallel calculations of periodic and/or spin-polarized systems, (3) routines for density matrix extrapolation in geometry optimization and molecular dynamics calculations, and (4) general utilities such as parallel matrix I/O and JSON output. The ELSI interface has been integrated into four electronic structure code projects (DFTB+, DGDFT, FHI-aims, SIESTA), allowing us to rigorously benchmark the performance of the solvers on an equal footing. Based on results of a systematic set of large-scale benchmarks performed with Kohn–Sham density-functional theory and density-functional tight-binding theory, we identify factors that strongly affect the efficiency of the solvers, and propose a decision layer that assists with the solver selection process. Finally, we describe a reverse communication interface encoding matrix-free iterative solver strategies that are amenable, e.g., for use with planewave basis sets. Program summary Program title: ELSI Interface CPC Library link to program files: http://dx.doi.org/10.17632/473mbbznrs.1 Licensing provisions: BSD 3-clause Programming language: Fortran 2003, with interface to C/C++ External routines/libraries: BLACS, BLAS, BSEPACK (optional), EigenExa (optional), ELPA, FortJSON, LAPACK, libOMM, MPI, MAGMA (optional), MUMPS (optional), NTPoly, ParMETIS (optional), PETSc (optional), PEXSI, PT-SCOTCH (optional), ScaLAPACK, SLEPc (optional), SuperLU\_DIST Nature of problem: Solving the electronic structure from given Hamiltonian and overlap matrices in electronic structure calculations. Solution method: ELSI provides a unified software interface to facilitate the use of various electronic structure solvers including cubic scaling dense eigensolvers, linear scaling density matrix methods, and other approaches.}
+      \field{day}{1}
+      \field{issn}{0010-4655}
+      \field{journaltitle}{Computer Physics Communications}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{shortjournal}{Computer Physics Communications}
+      \field{title}{{{ELSI}} — {{An}} Open Infrastructure for Electronic Structure Solvers}
+      \field{volume}{256}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{pages}{107459}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cpc.2020.107459
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/QQR6Z3VQ/Yu et al. - 2020 - ELSI — An open infrastructure for electronic struc.pdf;/Users/leopold/Personal/databases/zotero/storage/SPKMLZW8/S0010465520302150.html
+      \endverb
+      \keyw{Density matrix,Density-functional theory,Density-functional tight-binding,Eigensolver,Electronic structure theory,Parallel computing}
+    \endentry
+    \entry{Sirius2021}{software}{}
+      \name{author}{5}{}{%
+        {{hash=27926028b9b5fe0a5bfb7d8cfa6163d7}{%
+           family={Kozhevnikov},
+           familyi={K\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c7aa924aa9fcdb6d6a40f261dcb5500e}{%
+           family={Pintarelli},
+           familyi={P\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f59c382b422ddd192c79f262d4ddee78}{%
+           family={Mathieu},
+           familyi={M\bibinitperiod},
+           given={Taillefumier},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d075e54bba8b6d209db4e5b63315f6ac}{%
+           family={Stoppels},
+           familyi={S\bibinitperiod},
+           given={Harmen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8775e6b71fb31c3907ccdb35852d6524}{%
+           family={Frasch},
+           familyi={F\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{742ce9edb8fa945a8cd810cb016e2179}
+      \strng{fullhash}{0dba5e2f0f9fa3c89ed930befded20bc}
+      \strng{bibnamehash}{742ce9edb8fa945a8cd810cb016e2179}
+      \strng{authorbibnamehash}{742ce9edb8fa945a8cd810cb016e2179}
+      \strng{authornamehash}{742ce9edb8fa945a8cd810cb016e2179}
+      \strng{authorfullhash}{0dba5e2f0f9fa3c89ed930befded20bc}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Domain specific library for electronic structure calculations}
+      \field{day}{12}
+      \field{hour}{2}
+      \field{minute}{50}
+      \field{month}{6}
+      \field{second}{29}
+      \field{timezone}{Z}
+      \field{title}{{{SIRIUS}}}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{version}{7.2.4}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/electronic-structure/SIRIUS
+      \endverb
+      \verb{url}
+      \verb https://github.com/electronic-structure/SIRIUS
+      \endverb
+      \keyw{cuda,density-functional-theory,electronic-structure-calculations,full-potential,gpu,lapw,mpi,planewave,pseudopotential,rocm}
     \endentry
     \entry{Harrison2016}{article}{}
       \name{author}{27}{}{%
@@ -4058,8 +5444,8 @@
       \strng{authorbibnamehash}{405eb1b954cc29b85c5b83d26c499fe8}
       \strng{authornamehash}{405eb1b954cc29b85c5b83d26c499fe8}
       \strng{authorfullhash}{c5b7e28bdb85dc94c14c511501f42d8a}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{MADNESS (multiresolution adaptive numerical environment for scientific simulation) is a high-level software environment for solving integral and differential equations in many dimensions that uses adaptive and fast harmonic analysis methods with guaranteed precision that are based on multiresolution analysis and separated representations. Underpinning the numerical capabilities is a powerful petascale parallel programming environment that aims to increase both programmer productivity and code scalability. This paper describes the features and capabilities of MADNESS and briefly discusses some current applications in chemistry and several areas of physics.}
@@ -4083,66 +5469,60 @@
       \verb /Users/leopold/Personal/databases/zotero/storage/FEC7WU6W/Harrison et al. - 2016 - MADNESS A Multiresolution, Adaptive Numerical Env.pdf;/Users/leopold/Personal/databases/zotero/storage/PQBSEXIJ/15M1026171.html
       \endverb
     \endentry
-    \entry{Sirius2021}{software}{}
-      \name{author}{5}{}{%
-        {{hash=27926028b9b5fe0a5bfb7d8cfa6163d7}{%
-           family={Kozhevnikov},
-           familyi={K\bibinitperiod},
-           given={Anton},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c7aa924aa9fcdb6d6a40f261dcb5500e}{%
-           family={Pintarelli},
-           familyi={P\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
-        {{hash=f59c382b422ddd192c79f262d4ddee78}{%
-           family={Mathieu},
-           familyi={M\bibinitperiod},
-           given={Taillefumier},
-           giveni={T\bibinitperiod}}}%
-        {{hash=d075e54bba8b6d209db4e5b63315f6ac}{%
-           family={Stoppels},
-           familyi={S\bibinitperiod},
-           given={Harmen},
-           giveni={H\bibinitperiod}}}%
-        {{hash=8775e6b71fb31c3907ccdb35852d6524}{%
-           family={Frasch},
-           familyi={F\bibinitperiod},
-           given={Simon},
-           giveni={S\bibinitperiod}}}%
+    \entry{Calvin2021}{software}{}
+      \name{author}{2}{}{%
+        {{hash=a698d03af138667327f1d2095b338e99}{%
+           family={Calvin},
+           familyi={C\bibinitperiod},
+           given={Justus\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fb8c157b1fda15fbf63bac1cd0229543}{%
+           family={Valeev},
+           familyi={V\bibinitperiod},
+           given={Edward\bibnamedelima F.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
       }
-      \strng{namehash}{742ce9edb8fa945a8cd810cb016e2179}
-      \strng{fullhash}{0dba5e2f0f9fa3c89ed930befded20bc}
-      \strng{bibnamehash}{742ce9edb8fa945a8cd810cb016e2179}
-      \strng{authorbibnamehash}{742ce9edb8fa945a8cd810cb016e2179}
-      \strng{authornamehash}{742ce9edb8fa945a8cd810cb016e2179}
-      \strng{authorfullhash}{0dba5e2f0f9fa3c89ed930befded20bc}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \list{organization}{1}{%
+        {Valeev Group}%
+      }
+      \strng{namehash}{0905c8cc87d40137c44067c9aca67832}
+      \strng{fullhash}{0905c8cc87d40137c44067c9aca67832}
+      \strng{bibnamehash}{0905c8cc87d40137c44067c9aca67832}
+      \strng{authorbibnamehash}{0905c8cc87d40137c44067c9aca67832}
+      \strng{authornamehash}{0905c8cc87d40137c44067c9aca67832}
+      \strng{authorfullhash}{0905c8cc87d40137c44067c9aca67832}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Domain specific library for electronic structure calculations}
-      \field{day}{12}
-      \field{hour}{2}
-      \field{minute}{50}
-      \field{month}{6}
-      \field{second}{29}
+      \field{abstract}{A general-purpose scalable block-sparse tensor framework}
+      \field{day}{16}
+      \field{hour}{20}
+      \field{minute}{51}
+      \field{month}{8}
+      \field{origday}{14}
+      \field{orighour}{19}
+      \field{origminute}{44}
+      \field{origmonth}{8}
+      \field{origsecond}{57}
+      \field{origtimezone}{Z}
+      \field{origyear}{2013}
+      \field{second}{42}
       \field{timezone}{Z}
-      \field{title}{{{SIRIUS}}}
-      \field{urlday}{28}
-      \field{urlmonth}{6}
+      \field{title}{{{TiledArray}}}
+      \field{urlday}{24}
+      \field{urlmonth}{8}
       \field{urlyear}{2021}
-      \field{version}{7.2.4}
       \field{year}{2021}
       \field{dateera}{ce}
+      \field{origdateera}{ce}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://github.com/electronic-structure/SIRIUS
+      \verb https://github.com/ValeevGroup/tiledarray
       \endverb
       \verb{url}
-      \verb https://github.com/electronic-structure/SIRIUS
+      \verb https://github.com/ValeevGroup/tiledarray
       \endverb
-      \keyw{cuda,density-functional-theory,electronic-structure-calculations,full-potential,gpu,lapw,mpi,planewave,pseudopotential,rocm}
     \endentry
     \entry{Howison2016}{article}{}
       \name{author}{2}{}{%
@@ -4163,8 +5543,8 @@
       \strng{authorbibnamehash}{905d94622688b3ece6bfd79ab5c0aae4}
       \strng{authornamehash}{905d94622688b3ece6bfd79ab5c0aae4}
       \strng{authorfullhash}{905d94622688b3ece6bfd79ab5c0aae4}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Software is increasingly crucial to scholarship, yet the visibility and usefulness of software in the scientific record are in question. Just as with data, the visibility of software in publications is related to incentives to share software in reusable ways, and so promote efficient science. In this article, we examine software in publications through content analysis of a random sample of 90 biology articles. We develop a coding scheme to identify software “mentions” and classify them according to their characteristics and ability to realize the functions of citations. Overall, we find diverse and problematic practices: Only between 31\% and 43\% of mentions involve formal citations; informal mentions are very common, even in high impact factor journals and across different kinds of software. Software is frequently inaccessible (15\%–29\% of packages in any form; between 90\% and 98\% of specific versions; only between 24\%–40\% provide source code). Cites to publications are particularly poor at providing version information, whereas informal mentions are particularly poor at providing crediting information. We provide recommendations to improve the practice of software citation, highlighting recent nascent efforts. Software plays an increasingly great role in scientific practice; it deserves a clear and useful place in scholarly communication.}
@@ -4215,8 +5595,8 @@
       \strng{authorbibnamehash}{af0328ce0151580d1c2aae78c535df50}
       \strng{authornamehash}{af0328ce0151580d1c2aae78c535df50}
       \strng{authorfullhash}{af0328ce0151580d1c2aae78c535df50}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Software is a critical part of modern research and yet there is little support across the scholarly ecosystem for its acknowledgement and citation. Inspired by the activities of the FORCE11 working group focused on data citation, this document summarizes the recommendations of the FORCE11 Software Citation Working Group and its activities between June 2015 and April 2016. Based on a review of existing community practices, the goal of the working group was to produce a consolidated set of citation principles that may encourage broad adoption of a consistent policy for software citation across disciplines and venues. Our work is presented here as a set of software citation principles, a discussion of the motivations for developing the principles, reviews of existing community practice, and a discussion of the requirements these principles would place upon different stakeholders. Working examples and possible technical solutions for how these principles can be implemented will be discussed in a separate paper.}
@@ -4251,8 +5631,8 @@
       \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
       \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
       \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Making {{Your Code Citable}}}
@@ -4270,6 +5650,543 @@
       \verb{url}
       \verb https://guides.github.com/activities/citable-code/
       \endverb
+    \endentry
+    \entry{Sun2020c}{software}{}
+      \name{author}{30}{}{%
+        {{hash=bf2f0fea67d22eff11c39fd7c77f9576}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Qiming},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=07ea5d734dce284345e64aa737bfc116}{%
+           family={{jdmcclain47}},
+           familyi={j\bibinitperiod}}}%
+        {{hash=c534f76f6db6712a5aa104af267f00a3}{%
+           family={Koval},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c2382439dfacb0223e071f0be6071e3f}{%
+           family={{pulkin}},
+           familyi={p\bibinitperiod}}}%
+        {{hash=65acbe1ee01a98244815af305a5036ab}{%
+           family={Berkelbach},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3eaf4b27a1650afa6abf147ed24ea219}{%
+           family={Samragni-93},
+           familyi={S\bibinithyphendelim 9\bibinitperiod}}}%
+        {{hash=76b0862a4f0a17d62c0bdf69a63b59bb}{%
+           family={Sokolov},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bd7d15d79ca36b953d99a1a0aaccb94a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=db0e981d46150f9ac9d0a587e315f913}{%
+           family={{gkc1000}},
+           familyi={g\bibinitperiod}}}%
+        {{hash=3a9d67501ea85d43b265fde76fbe089a}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=74b4e6cbb07d6aee49f9bbab1603817e}{%
+           family={{ghb24}},
+           familyi={g\bibinitperiod}}}%
+        {{hash=7c7354a9f9316f27cb2896aa61a1e624}{%
+           family={{januseriksen}},
+           familyi={j\bibinitperiod}}}%
+        {{hash=9fc73182d7837cef25d9aa53a70c8a93}{%
+           family={Wouters},
+           familyi={W\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9e0549dec970ef5eeee9784eb5462cdd}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6c94417a2d07a25f9f376fab41bc7052}{%
+           family={{yangcal}},
+           familyi={y\bibinitperiod}}}%
+        {{hash=8eca32b3641a3a1cb575811e4667929b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhendong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=107ac1fe5c3a59f4f08308ddaf866335}{%
+           family={{bogdanoff}},
+           familyi={b\bibinitperiod}}}%
+        {{hash=9ffb66d2cdf14128a7495667582fc388}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2ae30fa8e348ef8dc9a521e98eb79545}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=81f6a0e1c205bcc2592fd38be6cee716}{%
+           family={{awhite862}},
+           familyi={a\bibinitperiod}}}%
+        {{hash=3bfcf6ab73dbb30c2438b3b01bc5fb5c}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=aff7ea81635f3c4136233bd7ce84f46e}{%
+           family={Scheurer},
+           familyi={S\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1c5bc62f03752685dde37036efc4d172}{%
+           family={Purwanto},
+           familyi={P\bibinitperiod},
+           given={Wirawan},
+           giveni={W\bibinitperiod}}}%
+        {{hash=25db94d199dcb6faf25832c83ec9cecd}{%
+           family={Blunt},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=adf447d0d6d246f5a5fcd334efdfcf7d}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=940536dc6d4abacf204c60d2183909da}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Bo-Xiao},
+           giveni={B\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=a7cb4cd5959af2ca6997937dd2b9009b}{%
+           family={{mbarbry}},
+           familyi={m\bibinitperiod}}}%
+        {{hash=758a87056546de3e9c2fc068c7afda7a}{%
+           family={{latrix}},
+           familyi={l\bibinitperiod}}}%
+        {{hash=3ff64c0b9b294f9998bfe0045eac097f}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Hung},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4c7b72e4f78a162d8c487d7b34f71d90}{%
+           family={MUSSARD},
+           familyi={M\bibinitperiod},
+           given={Bastien},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{fullhash}{3fd1bb88f5c9f510e375c73616a1f9d3}
+      \strng{bibnamehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{authorbibnamehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{authornamehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{authorfullhash}{3fd1bb88f5c9f510e375c73616a1f9d3}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Added Equilibrium solvation for TDDFT ddcosmo TDDFT gradients to support TDDFT geometry optimization with solvent Polarizable embedding solvent model Non-canonical MP2 Algebraic diagrammatic construction method Improved Atomic configuration in SCF initial guess IBO valence space configurations For icmpspt restart option and default settings TBLIS interface and compilation configurations DFT-KS initialization factory functions reset methods in many modules for scanner mode HF/KS conversion functions APIs for HF/KS response functions (used by TDDFT and other methods) transform\_ci function to allow projection between FCI wavefunction in different sizes The fractional-occupancy atomic HF method in SCF initial guess Performance of non-local XC functional FCI Performance stability of linear equation solver in dynamic polarizability cubegen for PBC systems Bugfix Contributions of MM point charges in icmpspt energy ROHF and UHF orbital occupancy for negative mol.spin Four-component Dirac HF EFG tensor Avoid twice initialization in modules GDF, SGX etc. nuclear repulsion energy for single-atom case MINDO gradients unit (from Hartree/Angstrom to Hartree/Bohr) Data prefetching bug in CCSD Total energy of CCSD and CISD with non-canonical HF reference}
+      \field{day}{1}
+      \field{month}{3}
+      \field{shorttitle}{Pyscf/Pyscf}
+      \field{title}{Pyscf/Pyscf: {{PySCF}} v1.7.1 Release}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.3692842
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/8BLB66T2/3692842.html
+      \endverb
+    \endentry
+    \entry{Sun2020b}{software}{}
+      \name{author}{30}{}{%
+        {{hash=bf2f0fea67d22eff11c39fd7c77f9576}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Qiming},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=07ea5d734dce284345e64aa737bfc116}{%
+           family={{jdmcclain47}},
+           familyi={j\bibinitperiod}}}%
+        {{hash=c534f76f6db6712a5aa104af267f00a3}{%
+           family={Koval},
+           familyi={K\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c2382439dfacb0223e071f0be6071e3f}{%
+           family={{pulkin}},
+           familyi={p\bibinitperiod}}}%
+        {{hash=65acbe1ee01a98244815af305a5036ab}{%
+           family={Berkelbach},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod}}}%
+        {{hash=3eaf4b27a1650afa6abf147ed24ea219}{%
+           family={Samragni-93},
+           familyi={S\bibinithyphendelim 9\bibinitperiod}}}%
+        {{hash=76b0862a4f0a17d62c0bdf69a63b59bb}{%
+           family={Sokolov},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bd7d15d79ca36b953d99a1a0aaccb94a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=db0e981d46150f9ac9d0a587e315f913}{%
+           family={{gkc1000}},
+           familyi={g\bibinitperiod}}}%
+        {{hash=3a9d67501ea85d43b265fde76fbe089a}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Sheng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6c94417a2d07a25f9f376fab41bc7052}{%
+           family={{yangcal}},
+           familyi={y\bibinitperiod}}}%
+        {{hash=74b4e6cbb07d6aee49f9bbab1603817e}{%
+           family={{ghb24}},
+           familyi={g\bibinitperiod}}}%
+        {{hash=2ae30fa8e348ef8dc9a521e98eb79545}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Xing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=7c7354a9f9316f27cb2896aa61a1e624}{%
+           family={{januseriksen}},
+           familyi={j\bibinitperiod}}}%
+        {{hash=9fc73182d7837cef25d9aa53a70c8a93}{%
+           family={Wouters},
+           familyi={W\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0a89f1b9b1538d5cc32590df6dbf3b08}{%
+           family={Bogdanov},
+           familyi={B\bibinitperiod},
+           given={Nikolay\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9e0549dec970ef5eeee9784eb5462cdd}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Lucas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=8eca32b3641a3a1cb575811e4667929b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhendong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=9ffb66d2cdf14128a7495667582fc388}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=81f6a0e1c205bcc2592fd38be6cee716}{%
+           family={{awhite862}},
+           familyi={a\bibinitperiod}}}%
+        {{hash=3bfcf6ab73dbb30c2438b3b01bc5fb5c}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={Mark\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=aff7ea81635f3c4136233bd7ce84f46e}{%
+           family={Scheurer},
+           familyi={S\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1c5bc62f03752685dde37036efc4d172}{%
+           family={Purwanto},
+           familyi={P\bibinitperiod},
+           given={Wirawan},
+           giveni={W\bibinitperiod}}}%
+        {{hash=25db94d199dcb6faf25832c83ec9cecd}{%
+           family={Blunt},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c70e90dfb1372c46c6250e6f1d5d2a9b}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelimb E.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=adf447d0d6d246f5a5fcd334efdfcf7d}{%
+           family={Hermann},
+           familyi={H\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=940536dc6d4abacf204c60d2183909da}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Bo-Xiao},
+           giveni={B\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=a7cb4cd5959af2ca6997937dd2b9009b}{%
+           family={{mbarbry}},
+           familyi={m\bibinitperiod}}}%
+        {{hash=758a87056546de3e9c2fc068c7afda7a}{%
+           family={{latrix}},
+           familyi={l\bibinitperiod}}}%
+        {{hash=3ff64c0b9b294f9998bfe0045eac097f}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Hung},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{fullhash}{002aa461a51c769857c1eab2c47263ba}
+      \strng{bibnamehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{authorbibnamehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{authornamehash}{82e4bff563c82784b765c7573114c8af}
+      \strng{authorfullhash}{002aa461a51c769857c1eab2c47263ba}
+      \field{extraname}{3}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{14}
+      \field{month}{5}
+      \field{shorttitle}{Pyscf/Pyscf}
+      \field{title}{Pyscf/Pyscf: {{PySCF}}}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.593807
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/T9VF2ZF7/3826118.html
+      \endverb
+    \endentry
+    \entry{peastman2020}{software}{}
+      \name{author}{30}{}{%
+        {{hash=9e5070b44c40340274b15ede468d9d53}{%
+           family={{peastman}},
+           familyi={p\bibinitperiod}}}%
+        {{hash=a825e9aa9df87bde7a4f1133684bce84}{%
+           family={Swails},
+           familyi={S\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b972b9a2259607df72ee823aad77fa16}{%
+           family={Chodera},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=7e8f543421b415613202c26e32c43f1d}{%
+           family={McGibbon},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima T.},
+           giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=8a2f6d4a1d32f0f4012e7fb10969cad5}{%
+           family={Simmonett},
+           familyi={S\bibinitperiod},
+           given={Andy},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d0dbb9362c074207dcc2bd53e57d9e51}{%
+           family={Sherman},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2c921bf7cb71757fd001f9de8171e720}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yutong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7b8250ec1e8adf3160b9dfdc15c7f6b0}{%
+           family={Lee-Ping},
+           familyi={L\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=1d238059c66aa1e92e032c00d5780e74}{%
+           family={Wiewiora},
+           familyi={W\bibinitperiod},
+           given={Rafal},
+           giveni={R\bibinitperiod}}}%
+        {{hash=65644710f3dc90c4de061ee804a3e0eb}{%
+           family={Belsare},
+           familyi={B\bibinitperiod},
+           given={Saurabh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=96187f6e65086f5ac31f6476c38479ca}{%
+           family={Beauchamp},
+           familyi={B\bibinitperiod},
+           given={Kyle},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9f94cd0a087d07f2d85f0ebb165de70b}{%
+           family={Stern},
+           familyi={S\bibinitperiod},
+           given={Chaya},
+           giveni={C\bibinitperiod}}}%
+        {{hash=60ebe5837c97aa9c72d385cb1f5e295f}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a80e23250a3ddff0ee07b3b3cc9605ee}{%
+           family={{frabjous5}},
+           familyi={f\bibinitperiod}}}%
+        {{hash=22e3d3ffcac71fadc7b87e41010eec2f}{%
+           family={Mikes},
+           familyi={M\bibinitperiod},
+           given={Sam},
+           giveni={S\bibinitperiod}}}%
+        {{hash=dc6a25244d65d1c3b76b8da8ba84b54c}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fcf7b5454f3c961fb42eee21f2d37170}{%
+           family={Schnieders},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=9724d3e6fcd892f7f469578a12f9df30}{%
+           family={Constable},
+           familyi={C\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=70fa39925f4bd545a5029e6e25ff1c0c}{%
+           family={Harvey},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=738f34eb30b094fcdc6b20084e8de645}{%
+           family={MacCallum},
+           familyi={M\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod}}}%
+        {{hash=898229842b0f5dcce69149cf025633c9}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chengwen},
+           giveni={C\bibinitperiod}}}%
+        {{hash=9ee8632f808c67a02d44143851e814ca}{%
+           family={Krämer},
+           familyi={K\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d86724ffdef7abc98896f06fad2d2cf1}{%
+           family={GONG},
+           familyi={G\bibinitperiod},
+           given={Zheng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=a6d0b9d558d46d1286415707084a1048}{%
+           family={Jo},
+           familyi={J\bibinitperiod},
+           given={Sunhwan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c5651c472d63cb09ca25ebac4a1e090a}{%
+           family={Schwantes},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f6f8255de9facf6ebe3613b601435f38}{%
+           family={Marí},
+           familyi={M\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9e7e96598876ac86324edeaa163a9745}{%
+           family={Dembia},
+           familyi={D\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5300c671ae9096102884bc8c44ada9b2}{%
+           family={LeGrand},
+           familyi={L\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a0a9245c436ed5cf042706396e1a148d}{%
+           family={Naden},
+           familyi={N\bibinitperiod},
+           given={Levi},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c66518ef87cabcc572227db24ad38bab}{%
+           family={Wagner},
+           familyi={W\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{4792efb9abab7c073edc514422dd95f7}
+      \strng{fullhash}{4b0ee0abc98eece2a5d023ea174f6a66}
+      \strng{bibnamehash}{4792efb9abab7c073edc514422dd95f7}
+      \strng{authorbibnamehash}{4792efb9abab7c073edc514422dd95f7}
+      \strng{authornamehash}{4792efb9abab7c073edc514422dd95f7}
+      \strng{authorfullhash}{4b0ee0abc98eece2a5d023ea174f6a66}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{25}
+      \field{month}{5}
+      \field{shorttitle}{Openmm/Openmm}
+      \field{title}{Openmm/Openmm: {{OpenMM}}}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.591297
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/5WH8QI5B/3844652.html
+      \endverb
+    \endentry
+    \entry{Grimme2021}{software}{}
+      \name{author}{3}{}{%
+        {{hash=3a2585af369dbd4150db746c63177b0c}{%
+           family={Grimme},
+           familyi={G\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ec75a624132a0bda972dc3585a639c9c}{%
+           family={Bannwarth},
+           familyi={B\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=ead1f648a4aeec4688036c900978feb9}{%
+           family={Ehlert},
+           familyi={E\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Zenodo}%
+      }
+      \strng{namehash}{b437e371c11d4ad74925f4cec5a616db}
+      \strng{fullhash}{b437e371c11d4ad74925f4cec5a616db}
+      \strng{bibnamehash}{b437e371c11d4ad74925f4cec5a616db}
+      \strng{authorbibnamehash}{b437e371c11d4ad74925f4cec5a616db}
+      \strng{authornamehash}{b437e371c11d4ad74925f4cec5a616db}
+      \strng{authorfullhash}{b437e371c11d4ad74925f4cec5a616db}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{10}
+      \field{month}{6}
+      \field{shorttitle}{Grimme-Lab/Xtb}
+      \field{title}{Grimme-Lab/Xtb: Xtb}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.5281/zenodo.3712015
+      \endverb
+      \verb{file}
+      \verb /Users/leopold/Personal/databases/zotero/storage/CHURX668/4973813.html
+      \endverb
+      \keyw{atomistic-simulations,computational-chemistry,quantum-chemistry,tight-binding}
     \endentry
   \enddatalist
   \keyalias{Kuhne2020a}{Kuhne2020}
