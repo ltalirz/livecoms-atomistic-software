@@ -25,6 +25,7 @@ Specific changes can be proposed [via pull requests](https://help.github.com/art
 ## List of Released Versions
 <!-- update this when you decide to release a version either by preprint or when submitted to LiveCoMS-->
 - v0.1: Submitted to LiveCoMS
+- v0.2: Revisions after peer review
 
 ## License
 
