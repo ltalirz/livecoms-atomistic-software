@@ -56,7 +56,7 @@
       \verb /Users/leopold/Personal/databases/zotero/storage/QDPWQYWP/Lehtola and Karttunen - 2021 - Free and Open Source Software for Computational Ch.pdf;/Users/leopold/Personal/databases/zotero/storage/URZU5WH2/6112bcd6424ea383d2871edf.html
       \endverb
     \endentry
-    \entry{Hehre1970}{book}{}
+    \entry{Hehre1970}{software}{}
       \name{author}{5}{}{%
         {{hash=1b18c24246a62c23614e0771f5c3276f}{%
            family={Hehre},
@@ -84,8 +84,8 @@
            given={J.\bibnamedelimi A.},
            giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Program}%
+      \list{organization}{1}{%
+        {Quantum Chemistry Program Exchange}%
       }
       \strng{namehash}{95a5b9813a742905ee968aeb8e5492d9}
       \strng{fullhash}{13d58eb341509dca6df2719e9dd4a2c3}
@@ -97,29 +97,31 @@
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Gaussian 70 ({{Quantum Chemistry Program Exchange}}}
+      \field{title}{Gaussian 70}
       \field{year}{1970}
       \field{dateera}{ce}
     \endentry
-    \entry{VANGUNSTEREN1982}{article}{}
+    \entry{vanGunsteren1982}{article}{useprefix=true}
       \name{author}{2}{}{%
-        {{hash=33e62a4769e0b9c510bab263e674fa0e}{%
-           family={VAN\bibnamedelima GUNSTEREN},
-           familyi={V\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={WILFRED\bibnamedelima F.},
-           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{hash=874cbaded1a5c9b141181304572e9342}{%
-           family={BERENDSEN},
+        {{hash=c2764fa76dea50db0808261f86e0fbf9}{%
+           family={Gunsteren},
+           familyi={G\bibinitperiod},
+           given={Wilfred\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=0131f528b6f755e84b5897b737920cb6}{%
+           family={Berendsen},
            familyi={B\bibinitperiod},
-           given={HERMAN\bibnamedelimb J.\bibnamedelimi C.},
+           given={Herman\bibnamedelimb J.\bibnamedelimi C.},
            giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
-      \strng{namehash}{023bbc7991ad2c66032831293ae72461}
-      \strng{fullhash}{023bbc7991ad2c66032831293ae72461}
-      \strng{bibnamehash}{023bbc7991ad2c66032831293ae72461}
-      \strng{authorbibnamehash}{023bbc7991ad2c66032831293ae72461}
-      \strng{authornamehash}{023bbc7991ad2c66032831293ae72461}
-      \strng{authorfullhash}{023bbc7991ad2c66032831293ae72461}
+      \strng{namehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{fullhash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{bibnamehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{authorbibnamehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{authornamehash}{6a8390de802118c7abb495c1e4b794cf}
+      \strng{authorfullhash}{6a8390de802118c7abb495c1e4b794cf}
       \field{sortinit}{3}
       \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
@@ -2325,6 +2327,7 @@
       \strng{authorbibnamehash}{c89d673402b6992582df2ce146a5e4b4}
       \strng{authornamehash}{c89d673402b6992582df2ce146a5e4b4}
       \strng{authorfullhash}{ce223358fc027e2825af8b6678f39456}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
@@ -2432,6 +2435,7 @@
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
+      \field{month}{8}
       \field{title}{Linux {{Kernel History Report}}}
       \field{urlday}{25}
       \field{urlmonth}{8}
@@ -3080,10 +3084,10 @@
       \verb /Users/leopold/Personal/databases/zotero/storage/JZLKBGRK/index.html
       \endverb
       \verb{urlraw}
-      \verb https://en.wikipedia.org/w/index.php?title=List_of_quantum_chemistry_and_solid-state_physics_software&oldid=1025155580
+      \verb https://en.wikipedia.org/w/index.php?title=List_of_quantum_chemistry_and_solid-state_physics_software
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/w/index.php?title=List_of_quantum_chemistry_and_solid-state_physics_software&oldid=1025155580
+      \verb https://en.wikipedia.org/w/index.php?title=List_of_quantum_chemistry_and_solid-state_physics_software
       \endverb
     \endentry
     \entry{mm-codes-wiki}{inreference}{}
@@ -3110,10 +3114,10 @@
       \verb /Users/leopold/Personal/databases/zotero/storage/FWPU8YIY/index.html
       \endverb
       \verb{urlraw}
-      \verb https://en.wikipedia.org/w/index.php?title=Comparison_of_software_for_molecular_mechanics_modeling&oldid=1029911434
+      \verb https://en.wikipedia.org/w/index.php?title=Comparison_of_software_for_molecular_mechanics_modeling
       \endverb
       \verb{url}
-      \verb https://en.wikipedia.org/w/index.php?title=Comparison_of_software_for_molecular_mechanics_modeling&oldid=1029911434
+      \verb https://en.wikipedia.org/w/index.php?title=Comparison_of_software_for_molecular_mechanics_modeling
       \endverb
     \endentry
     \entry{sklog-wiki}{online}{}
@@ -3313,7 +3317,7 @@
       \field{year}{2021}
       \field{dateera}{ce}
     \endentry
-    \entry{vandeSandt2019a}{online}{useprefix=true}
+    \entry{vandeSandt2019}{online}{useprefix=true}
       \name{author}{9}{}{%
         {{hash=2c656c36f039d297435977feae9eb69e}{%
            family={Sandt},
@@ -3374,8 +3378,8 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Data and software citations are crucial for the transparency of research results and for the transmission of credit. But they are hard to track, because of the absence of a common citation standard. As a consequence, the FORCE11 recently proposed data and software citation principles as guidance for authors. Zenodo is recognized for the implementation of DOIs for software on a large scale. The minting of complementary DOIs for the version and concept allows measuring the impact of dynamic software. This article investigates characteristics of 5,456 citations to Zenodo data and software that were captured by the Asclepias Broker in January 2019. We analyzed the current state of data and software citation practices and the quality of software citation recommendations with regard to the impact of recent standardization efforts. Our findings prove that current citation practices and recommendations do not match proposed citation standards. We consequently suggest practical first steps towards the implementation of the software citation principles.}
+      \field{annotation}{eprint: 1911.00295 primaryClass: cs}
       \field{day}{1}
-      \field{eprintclass}{cs}
       \field{eprinttype}{arxiv}
       \field{month}{11}
       \field{shorttitle}{Practice Meets {{Principle}}}
@@ -3391,7 +3395,7 @@
       \verb 1911.00295
       \endverb
       \verb{file}
-      \verb /Users/leopold/Personal/databases/zotero/storage/SUXRFQKW/van de Sandt et al. - 2019 - Practice meets Principle Tracking Software and Da.pdf;/Users/leopold/Personal/databases/zotero/storage/V8WBTA73/van de Sandt et al. - 2019 - Practice meets Principle Tracking Software and Da.pdf;/Users/leopold/Personal/databases/zotero/storage/LACDHZ7U/1911.html;/Users/leopold/Personal/databases/zotero/storage/LTP4ADND/1911.html
+      \verb /Users/leopold/Personal/databases/zotero/storage/SUXRFQKW/van de Sandt et al. - 2019 - Practice meets Principle Tracking Software and Da.pdf;/Users/leopold/Personal/databases/zotero/storage/LTP4ADND/1911.html
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/1911.00295
@@ -3401,7 +3405,7 @@
       \endverb
       \keyw{Computer Science - Digital Libraries}
     \endentry
-    \entry{vandeSandt2020}{unpublished}{useprefix=true}
+    \entry{vandeSandt2020}{report}{useprefix=true}
       \name{author}{2}{}{%
         {{hash=2c656c36f039d297435977feae9eb69e}{%
            family={Sandt},
@@ -4845,9 +4849,6 @@
            family={WhiteSource},
            familyi={W\bibinitperiod}}}%
       }
-      \list{organization}{1}{%
-        {WhiteSource}%
-      }
       \strng{namehash}{1de45261541132066ac7e53f9f067788}
       \strng{fullhash}{1de45261541132066ac7e53f9f067788}
       \strng{bibnamehash}{1de45261541132066ac7e53f9f067788}
@@ -5970,11 +5971,13 @@
       \verb /Users/leopold/Personal/databases/zotero/storage/T9VF2ZF7/3826118.html
       \endverb
     \endentry
-    \entry{peastman2020}{software}{}
+    \entry{Eastman2020}{software}{}
       \name{author}{30}{}{%
-        {{hash=9e5070b44c40340274b15ede468d9d53}{%
-           family={{peastman}},
-           familyi={p\bibinitperiod}}}%
+        {{hash=fce747df080a00d1ab9d4ef6298ca512}{%
+           family={Eastman},
+           familyi={E\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
         {{hash=a825e9aa9df87bde7a4f1133684bce84}{%
            family={Swails},
            familyi={S\bibinitperiod},
@@ -6120,12 +6123,13 @@
       \list{organization}{1}{%
         {Zenodo}%
       }
-      \strng{namehash}{4792efb9abab7c073edc514422dd95f7}
-      \strng{fullhash}{4b0ee0abc98eece2a5d023ea174f6a66}
-      \strng{bibnamehash}{4792efb9abab7c073edc514422dd95f7}
-      \strng{authorbibnamehash}{4792efb9abab7c073edc514422dd95f7}
-      \strng{authornamehash}{4792efb9abab7c073edc514422dd95f7}
-      \strng{authorfullhash}{4b0ee0abc98eece2a5d023ea174f6a66}
+      \strng{namehash}{c89d673402b6992582df2ce146a5e4b4}
+      \strng{fullhash}{06cb886d51ad0eb4409a6d08a39a1c51}
+      \strng{bibnamehash}{c89d673402b6992582df2ce146a5e4b4}
+      \strng{authorbibnamehash}{c89d673402b6992582df2ce146a5e4b4}
+      \strng{authornamehash}{c89d673402b6992582df2ce146a5e4b4}
+      \strng{authorfullhash}{06cb886d51ad0eb4409a6d08a39a1c51}
+      \field{extraname}{2}
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}

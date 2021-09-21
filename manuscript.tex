@@ -1,27 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% LIVECOMS ARTICLE TEMPLATE FOR BEST PRACTICES GUIDE
+%%% ADAPTED FROM ELIFE ARTICLE TEMPLATE (8/10/2017)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PREAMBLE
 \documentclass[9pt,review]{livecoms}
+% Use the 'onehalfspacing' option for 1.5 line spacing
+% Use the 'doublespacing' option for 2.0 line spacing
+% Use the 'lineno' option for adding line numbers.
+% Use the "ASAPversion' option following article acceptance to add the DOI and relevant dates to the document footer.
+% Use the 'pubversion' option for adding the citation and publication information to the document footer, when the LiveCoMS issue is finalized.
+% The 'bestpractices' option for indicates that this is a best practices guide.
+% Omit the bestpractices option to remove the marking as a LiveCoMS paper.
+% Please note that these options may affect formatting.
 
-\usepackage{lipsum} %
+\usepackage{lipsum} % Required to insert dummy text
 \usepackage[version=4]{mhchem}
 \usepackage{siunitx}
 \usepackage{booktabs}
 \DeclareSIUnit\Molar{M}
 \usepackage[italic]{mathastext}
 \graphicspath{{figures/}}
+%\usepackage[
+%backend=biber,%
+%bibstyle=numeric-comp,%
+%sorting=none%
+%]{biblatex}
 \addbibresource{atomistic.software.bl.bib}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% IMPORTANT USER CONFIGURATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\newcommand{\versionnumber}{1.3}  %
-\newcommand{\githubrepository}{\url{https://github.com/ltalirz/livecoms-atomistic-software}}  %
+\newcommand{\versionnumber}{1.3}  % you should update the minor version number in preprints and major version number of submissions.
+\newcommand{\githubrepository}{\url{https://github.com/ltalirz/livecoms-atomistic-software}}  %this should be the main github repository for this article
 
 \newcommand{\atsoft}{\href{https://atomistic.software}{atomistic.software}\ }
 \newcommand{\atsoftgit}{\href{https://github.com/ltalirz/atomistic-software}{ltalirz/atomistic-software}\ }
 \newcommand{\red}[1]{{\color[HTML]{FE0000} #1}}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ARTICLE SETUP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Trends in atomistic simulation software usage [\versionnumber]}
 
 \author[1,2,3*]{Leopold Talirz}
 \author[4]{Luca M. Ghiringhelli}
 \author[1,3]{Berend Smit}
+%\author[1,2\authfn{1}\authfn{3}]{Firstname Middlename Familyname}
+%\author[2\authfn{1}\authfn{4}]{Firstname Initials Surname}
+%\author[2*]{Firstname Surname}
 \affil[1]{Laboratory of Molecular Simulation (LSMO),
     Institut des Sciences et Ingenierie Chimiques,
     Valais, \'Ecole Polytechnique F\'ed\'erale de Lausanne,
@@ -35,16 +62,27 @@ of Novel Materials (MARVEL), \'Ecole Polytechnique F\'ed\'erale de Lausanne,
 CH-1015 Lausanne, Switzerland}
 \affil[4]{The NOMAD Laboratory at the Fritz Haber Institute of the Max Planck Society and Humboldt University, Berlin, Germany}
 
-\corr{leopold.talirz@gmail.com}{LT}  %
+\corr{leopold.talirz@gmail.com}{LT}  % Correspondence emails.  FMS and FS are the appropriate authors initials.
+%\corr{email2@example.com}{FS}
 
 \orcid{Leopold Talirz}{0000-0002-1524-5903}
 \orcid{Luca M. Ghiringhelli}{0000-0001-5099-3029}
 \orcid{Berend Smit}{0000-0003-4653-8562}
+%\orcid{Author 2 name}{EEEE-FFFF-GGGG-HHHH}
 
+%\contrib[\authfn{1}]{These authors contributed equally to this work}
+%\contrib[\authfn{2}]{These authors also contributed equally to this work}
 
+%\presentadd[\authfn{3}]{Department, Institute, Country}
+%\presentadd[\authfn{4}]{Department, Institute, Country}
 
 \blurb{This LiveCoMS document is maintained online on GitHub at \githubrepository; to provide feedback, suggestions, or help improve it, please visit the GitHub repository and participate via the issue tracker.}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PUBLICATION INFORMATION
+%%% Fill out these parameters when available
+%%% These are used when the "pubversion" option is invoked
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pubDOI{10.XXXX/YYYYYYY}
 \pubvolume{<volume>}
 \pubissue{<issue>}
@@ -53,14 +91,19 @@ CH-1015 Lausanne, Switzerland}
 \datereceived{Day Month Year}
 \dateaccepted{Day Month Year}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ARTICLE START
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 \begin{frontmatter}
 \maketitle
 
+% 250 words
 
 \begin{abstract}
+%(to be adapted to match the actual content of the article)
 Driven by the unprecedented computational power available to scientific research, the use of computers in solid-state physics, chemistry and materials science has been on a continuous rise.
 This review focuses on the software used for the simulation of matter at the atomic scale.
 We provide a comprehensive overview of major codes in the field, and analyze how citations to these codes in the academic literature have evolved since 2010.
@@ -74,6 +117,23 @@ An interactive version of the underlying data set is available at \href{https://
 
 \section{Introduction}
 
+%\begin{itemize}
+%    \item the use of computational methods in physics/chemistry/mat sci is on the rise
+%    \item the complexity of the computationally feasible methods is on the rise
+%    \item the complexity of the software implementing those methods is on the rise
+%        %(the gradual decline of single-thread performance scaling is leading to increasing specialization of hardware whose features need to be exploited for high performance.
+%        %this increases complexity and is a problem for small codes and may lead to a consolidation in the atomistic software space)
+%    \item this poses important questions for how to sustain scientific software development going forward;
+%        questions of business models, licensing, source availability, etc.
+%    \item we are blessed with a lot of great open-source software in our field.
+%        how do they fare with respect to their commercial competitors?
+%    \item there are hundreds of simulation engines out there - difficult to keep track without getting lost
+%    \item figures: 
+%    \begin{itemize}
+%        \item one figure on citation of atomistic codes (potentially just DFT) in all of science + the physics/chemistry subfields
+%        \item word cloud of major atomistic simulation codes
+%    \end{itemize}
+%\end{itemize}
 
 
 
@@ -87,24 +147,38 @@ An interactive version of the underlying data set is available at \href{https://
     \label{fig:top500}
 \end{figure}
 
+% latest
+% sum last 20 years (data points): 2.4e18/88.1e12=27.24k
+% sum fit: roughly 270/10 years => 75% growth per year => 
+% trend: 
 
 Scientists today have unprecedented access to computational power.
 This statement would be unremarkable, were it not for the extent to which computational power has exploded.
 Figure~\ref{fig:top500} shows the performance ranking of the top 500 supercomputers in the world over the last decades, including the performance of the top-ranked machine, the machine at the bottom of the list, and the sum of all 500.
 Remarkably, the least-squares fit to the sum (green line) corresponds to a growth rate of ${\sim}75\%$ per year, which translates to a performance increase of more than one \emph{million} times over the last 25 years.
 Similar improvements in commodity hardware mean that many of 2020's laptop computers would have made the top 500 list of the early 2000s \cite{Lehtola2021}.
+%\footnote{High-end laptop processors exceed 100 GFlop/s in the Linpack benchmark.}
 
 First versions of quantum-chemistry codes, such as Gaussian \cite{Hehre1970}, 
+%or GAMESS, 
 were already released in the 1970s,
-followed by force-field codes, such as GROMOS \cite{VANGUNSTEREN1982}, 
+followed by force-field codes, such as GROMOS \cite{vanGunsteren1982}, 
 and periodic density-functional theory (DFT) codes, such as CASTEP \cite{Payne1992a}, in the 1980s and 1990s.
 In other words, many of these atomistic simulation engines have been around during this explosion of computational power, continuously evolving to take advantage of new algorithms, processor architectures, increasing parallelism and, more recently, dedicated accelerator hardware.
 Over time, they have developed from instruments for specialists to proven and tested tools in the arsenal of practitioners in physics, chemistry, and materials science.
 
+%making previously complicated calculations routine
+%and previously impossible calculations feasible.
 
+% Gaussian with its first release in 1970,
+%GAMESS in the lat 1970s.
+%CASTEP in the late 1980s
+%Turbomole 1987
+%Dmol3 (early 80s)
 
 \begin{table*}
     \centering
+%\small
 
 \begin{tabular}{lllS[table-format=5.0]}
     \toprule
@@ -119,25 +193,43 @@ Over time, they have developed from instruments for specialists to proven and te
 {Density-functional exchange-energy approximation with correct …      } & Becke                      & PRA (1988) & 41142   \\
 {Inhomogeneous electron gas                                           } & Hohenberg, Kohn            & PRB (1964) & 35445   \\
 {Ab initio molecular dynamics for liquid metals                       } & Kresse, Hafner             & PRB (1993) & 23192   \\
+%\red{Accurate and simple analytic representation of the electron-gas …    } & Perdew, Wang               & PRB (1992) & 19442   \\
+%\red{Soft self-consistent pseudopotentials in a generalized eigenvalue …  } & Vanderbilt                 & PRB (1990) & 17617   \\
+%\red{Atoms, molecules, solids, and surfaces - Application of the ...      } & Perdew, Chevary et al.     & PRB (1992) & 17066   \\
+%{The electronic properties of graphene                                } & Castro Neto, Guinea et al. & RMP (2009) & 16687   \\
+%\red{Self-interaction correction to density-functional approximations ... } & Perdew, Zunger             & PRB (1981) & 16259   \\
+%\red{Density-functional approximation for the correlation-energy of ...   } & Perdew                     & PRB (1986) & 15390   \\
+%{Fast algorithm for detecting community structure in networks         } & Newman                     & PRE (2004) & 14895   \\
+%{Finding and evaluating community structure in networks               } & Newman, Girvan             & PRE (2004) & 14895   \\
+%{Optical constants of noble metals                                    } & Johnson, Christy           & PRB (1972) & 14179   \\
+%\red{Note on an approximation treatment for many-electron systems         } & Møller, Plesset            & PR (1934)  & 13320 \\ \bottomrule
 \end{tabular}
 
     \caption{
         Top ten most highly cited articles published by the American Physical Society,
         all of which deal with density functional theory and its practical application.
+        %Articles on electronic structure theory (mostly density functional theory) are highlighted in red.
         Data collected from the Web of Science on June 16th, 2021.
     }
     \label{tab:aps-most-cited}
 \end{table*}
 
+% WOS Query
+% APS
+% SO=(PHYSICAL REVIEW OR PHYSICAL REVIEW A OR PHYSICAL REVIEW A GENERAL PHYSICS OR PHYSICAL REVIEW ACCELERATORS "AND" BEAMS OR PHYSICAL REVIEW APPLIED OR PHYSICAL REVIEW B OR PHYSICAL REVIEW B SOLID STATE OR PHYSICAL REVIEW C OR PHYSICAL REVIEW D OR PHYSICAL REVIEW E OR PHYSICAL REVIEW FLUIDS OR PHYSICAL REVIEW LETTERS OR PHYSICAL REVIEW MATERIALS OR PHYSICAL REVIEW PHYSICS EDUCATION RESEARCH OR PHYSICAL REVIEW RESEARCH OR PHYSICAL REVIEW SPECIAL TOPICS ACCELERATORS "AND" BEAMS OR PHYSICAL REVIEW SPECIAL TOPICS PHYSICS EDUCATION RESEARCH OR PHYSICAL REVIEW X OR REVIEWS OF MODERN PHYSICS)
 
+% ACS
+% SO=(ACS APPLIED BIO MATERIALS OR ACS APPLIED ELECTRONIC MATERIALS OR ACS APPLIED ENERGY MATERIALS OR ACS APPLIED MATERIALS INTERFACES OR ACS APPLIED NANO MATERIALS OR ACS APPLIED POLYMER MATERIALS OR ACS BIOMATERIALS SCIENCE ENGINEERING OR ACS CATALYSIS OR ACS CENTRAL SCIENCE OR ACS CHEMICAL BIOLOGY OR ACS CHEMICAL HEALTH SAFETY OR ACS CHEMICAL NEUROSCIENCE OR ACS COMBINATORIAL SCIENCE OR ACS EARTH "AND" SPACE CHEMISTRY OR ACS ENERGY LETTERS OR ACS ENVIRONMENTAL SCIENCE "AND" TECHNOLOGY ENGINEERING OR ACS IEEE INTERNATIONAL CONFERENCE ON COMPUTER SYSTEMS "AND" APPLICATIONS PROCEEDINGS OR ACS INFECTIOUS DISEASES OR ACS MACRO LETTERS OR ACS MATERIALS LETTERS OR ACS MEDICINAL CHEMISTRY LETTERS OR ACS MISCELLANEOUS PUBLICATION OR ACS NANO OR ACS OMEGA OR ACS PHARMACOLOGY TRANSLATIONAL SCIENCE OR ACS PHOTONICS OR ACS SENSORS OR ACS SUSTAINABLE CHEMISTRY ENGINEERING OR ACS SYMPOSIUM SERIES OR ACS SYNTHETIC BIOLOGY OR BIOCHEMISTRY OR BIOCONJUGATE CHEMISTRY OR BIOMACROMOLECULES OR BIOTECHNOLOGY PROGRESS OR CHEMICAL RESEARCH IN TOXICOLOGY OR CHEMICAL REVIEWS OR CHEMISTRY OF MATERIALS OR CRYSTAL GROWTH DESIGN OR ENERGY FUELS OR ENVIRONMENTAL SCIENCE TECHNOLOGY OR ENVIRONMENTAL SCIENCE TECHNOLOGY LETTERS OR INDUSTRIAL ENGINEERING CHEMISTRY FUNDAMENTALS OR INDUSTRIAL ENGINEERING CHEMISTRY PROCESS DESIGN "AND" DEVELOPMENT OR INDUSTRIAL ENGINEERING CHEMISTRY PRODUCT RESEARCH "AND" DEVELOPMENT OR INDUSTRIAL ENGINEERING CHEMISTRY RESEARCH OR INORGANIC CHEMISTRY OR JACS AU OR JOURNAL OF AGRICULTURAL "AND" FOOD CHEMISTRY OR JOURNAL OF CHEMICAL EDUCATION OR JOURNAL OF CHEMICAL INFORMATION "AND" COMPUTER SCIENCES OR JOURNAL OF CHEMICAL INFORMATION "AND" MODELING OR JOURNAL OF CHEMICAL THEORY "AND" COMPUTATION OR JOURNAL OF MEDICINAL "AND" PHARMACEUTICAL CHEMISTRY OR JOURNAL OF MEDICINAL CHEMISTRY OR JOURNAL OF NATURAL PRODUCTS OR JOURNAL OF ORGANIC CHEMISTRY OR JOURNAL OF PHYSICAL CHEMISTRY OR JOURNAL OF PHYSICAL CHEMISTRY A OR JOURNAL OF PHYSICAL CHEMISTRY B OR JOURNAL OF PHYSICAL CHEMISTRY C OR JOURNAL OF PHYSICAL CHEMISTRY LETTERS OR JOURNAL OF PROTEOME RESEARCH OR JOURNAL OF THE AMERICAN CHEMICAL SOCIETY OR JOURNAL OF THE AMERICAN CHEMICAL SOCIETY FOR SPECTROMETRY)
 
 Records of the pervasive use of these tools can be found in the scientific literature.
 In a 2014 survey, van Noorden et al.\ found that 12 of the top 100 most cited papers of all time were on density-functional theory \cite{VanNoorden2014}.
 As with other examples in van Noorden's list, the flood of citations are indicative of papers being cited by the many practitioners (here: of density-functional theory) rather than the few method developers.
+%-- here: practitioners of density functional theory.
 If one focuses the analysis on articles published in physics journals, the footprint of density-functional theory grows even further:
 For example, table~\ref{tab:aps-most-cited} shows the top ten most cited papers published by journals of the American Physical Society.
 All of them are related to density-functional theory and its application.
 
+%In the chemistry field, the situation is less extreme (SI)
 
 
 \begin{table*}
@@ -156,6 +248,7 @@ Octopus \cite{Tancogne-Dejean2020}&10.5&Fortran& 10 & 297825 \\
 OpenMM \cite{Eastman2017}&7.5.1&C++& 21 & 256452 \\
 xtb \cite{Bannwarth2021}&6.4.1&Fortran& 18 & 124344 \\\hline
 Linux kernel&5.13&C& >4000 \cite{LinuxHistory2020} & 20904410\\
+%\bottomrule
     \end{tabular}\\
     \caption{
         Counting lines of code for 11 popular open-source atomistic simulation engines (and the Linux kernel for comparison), using the latest releases as of June 2021.
@@ -170,21 +263,31 @@ There used to be a time when it was commonplace for computational condensed-matt
 Over the years, however, many of these engines have developed into complex software distributions.
 Table \ref{tab:lines-of-code} shows counts for the lines of code in some of today's popular open-source simulation engines: they range from hundreds of thousands to millions of lines of code, typically written in Fortran or C++, with similar numbers being reported for commercial packages \cite{Krylov2015}.
 While statistics like these are by no means accurate measures of code complexity (and developers follow different approaches to packaging and outsourcing of functionality to external libraries), they nevertheless suggest that many of these code bases are too large to be sustained by any single person.
+%As the compute power available to scientists has continued increasing, so has the complexity of the models that can be treated computationally. 
+%This can range anywhere from treating very large systems (DFT on millions of atoms [cite])
+%to very demanding methods (xx scaling to xxx cores).
 
 This poses important questions for how to sustain these software projects going forward: questions of funding, business models, and software licenses.
 Proponents of the open-source route argue that it democratizes research and education by removing barriers for both users and developers, and that science carried out with commercial software is harder to verify and reproduce \cite{Stodden2009,Gezelter2015,Lehtola2021}.
 The open-source model can also be adopted irrespective of the size of a code's target user group, while commercial activity tends to require a minimal market size.
 On the other hand, the strong focus on innovation and development often found in open-source scientific software can negatively impact usability and quality of documentation \cite{Swarts2019}.
+% Thought: Since contributions to open-source software come from tech-savvy users who are trying to solve their own problem,
+% documentation for novice users is easily neglected (and there is no driving fore for it).
 Proponents of commercial licenses argue that making academic software accessible to a broader community is a technical task best left to professional software engineers, and that the resulting gain in scientific productivity can easily outweigh the license fees that pay for it \cite{Krylov2015}.
 We note that open-source and commercial activity do not necessarily exclude each other: numerous software companies are built around an open-source core, and we start seeing first examples in atomistic modelling as well (e.g. Molcas/OpenMolcas \cite{Fdez.Galvan2019}).
 Overall, it has been suggested that ``scientific publications are a more sound metric [of the scientific impact of software] than either the price of a product or whether its source code is available in the public domain'' \cite{Krylov2015}.
 Providing a peek into this citation record is one of the reasons for creating the \atsoft collection.
 
+%This is a question that the atomistic.software collection can help provide some insight into, at least as far as academic users are concerned (it is not tracking use in industry, where commerical software is more prevalent).
 
 The other reason is a practical one: 
 When young scientists start their first research project in atomistic simulations, they often have no grasp of the extent of this software ecosystem, let alone of current trends in the field -- at least this is the personal experience of the authors of this review.
 Software choices in research groups are therefore often informed by what other members of the group already use.
 This makes sense: colleagues have vetted the code for the type of problems the research group is working on, and built up expertise around which of the many knobs to turn in order to find the sweet spot between efficiency and accuracy.
+%over the years, a zoo of different codes has developed.
+%When one of the co-authors (TL) started his Ph.D.\ in 2010, he had no idea of the extent of this software ecosystem, let alone of current trends in the field, and one can assume the same holds true for many of those starting their career in the field today.
+%While writing a section on best open-science practises for a review article, the question arose: given that in the field of computational materials science/solid state physics/ chemistry we are blessed with great open-source software that can do most of what the (equally great) commercial codes do, how are those two groups faring with respect to each other and can one identify trends in their usage?
+%At that point I was aware of a couple of codes that had moved to more open licenses - e.g. CASTEP and Molcas - but I had no data at the ecosystem level, and that's when I started reaching out to Luca Ghiringelli at Nomad about building upon their list.
 
 But what if that code is no longer actively developed?
 What if there was another code that was better suited to solve the specific research problem at hand? 
@@ -193,16 +296,37 @@ Was free instead of commercial?
 Was open source instead of closed source? 
 The goal of the \atsoft collection is to provide a comprehensive overview of all major atomistic simulation engines (cf. Figure~\ref{fig:wordcloud}), and to help newcomers to the field as well as experienced practitioners and software developers find better answers to some of these questions.
 
+%Today, there is a whole zoo of engines that makes it difficult to keep up even for experienced practitioners. 
+%As a young scientist, you probably don't know where to start.
 
 
+%Many young scientists today start using the engine that is already used by others in the group where they start their research project / master's degree / Ph.D. 
 
 Readers interested mainly in the results are invited to go straight to the \href{atomistic.software}{atomistic.software} web site that displays the data discussed in this review.
 For those wanting to know more, the following sections provide details on the methodologies used, and discuss some of the trends that can be observed.
 
+%The following sections introduce the \href{atomistic.software}{atomistic.software} collection aimed at helping researchers with some of these questions.
 
 
 \section{The atomistic.software collection}
 
+%\begin{itemize}
+%    \item introduce the collection (origins, content, scope)
+%    \item discuss methods used for data collection\\
+%        this may include 
+%    \begin{itemize}
+%        \item looking at examples of codes and comparing results of citations of a key paper vs the query-based approach
+%        \item comparison google scholar counts vs web of science
+%        \item comparison to related efforts in other fields (I'm not currently aware of any but will look \& ask around for them - suggestions welcome!)
+%    \end{itemize}
+%    \item point out limitations of the methods
+%    \item at the same time, explain how to explore it through \url{atomistic.software}\\ 
+%        %\begin{itemize}
+%        %    \item how to nagivate the table (links to code homepages; classifications with explanation on hover; links to google scholar queries)
+%        %    \item how to search / filter; select years; ...
+%        %\end{itemize}
+%        (this will involve a number of figures)
+%\end{itemize}
 
 \subsection{Overview}
 
@@ -221,6 +345,13 @@ It enriches these with annual citation data from the Google Scholar search engin
 
 \begin{figure}
     \includegraphics[width=0.5\textwidth]{figures/overview}
+    % picture taken with:
+    % * incognito mode (to hide visited links)
+    % * 125% magnification
+    % * removed "tags" and "installation" column in order to reduce width
+    % * keep sidebar unfolded (allows for more horizontal compression)
+    % * on Retina display
+    % * 8 codes in list for optimal height
     \caption{
         Overview table of atomistic simulation engines, sorted by how often they are referenced on Google Scholar during the previous year (here: 2020).
         A drop-down menu provides access to annual citation data reaching back to the year 2010.
@@ -253,7 +384,18 @@ In order not to clutter the interface, not all metadata is displayed by default 
 
 Besides the generic overview, each engine comes with a citation "trend" over the last couple of years, which serves as an indicator of how its user community has developed over time (Figure~\ref{fig:quantum-espresso}).
 
+%TODO: Add comment on CAGR
+%The compound annual citation growth rates reported on  are computed starting from the first year with 10 or more citations in order to be able to provide a growth vector also for new additions to the collection.
+%We note that the concept of a growth rate implies exponential growth, which is not necessarily a good model to describe the data.
+%An alternative approach would be to model linear growth in terms of additional citations per year.
 
+%\begin{figure}
+%    \includegraphics[width=0.5\textwidth]{figures/vasp}
+%    \caption{
+%        Citation trend for the VASP code.
+%    }
+%    \label{fig:vasp}
+%\end{figure}
 
 \begin{figure}
     \includegraphics[width=0.5\textwidth]{figures/quantum-espresso}
@@ -314,7 +456,7 @@ Google Scholar was chosen over alternative sources like the Web of Science or Sc
 The supporting information contains a case study comparing citation counts from the search-based Google Scholar approach against counting the citations of reference papers (both in Google Scholar and the Web of Science).
 
 
-Owing to the lack of standardization in today's software citation practices \cite{vandeSandt2019a,vandeSandt2020}, the citation counts reported here are necessarily approximate.
+Owing to the lack of standardization in today's software citation practices \cite{vandeSandt2019,vandeSandt2020}, the citation counts reported here are necessarily approximate.
 Shortcomings include the following:
 \begin{itemize}
     \item While spot checks have been performed to weed out false matches (and reports on the \atsoftgit GitHub repository are highly welcome), details of the query can have significant impact on the number of results.
@@ -330,8 +472,11 @@ or if a software targets industrial users who may be less likely to publish thei
 
 The caveats listed above mainly affect the \emph{absolute} number of citations reported, and thus the ranking of codes.
 Citation trends on the individual code level should be more robust, and potential shortcomings in that domain (e.g.\ missing citations to a new reference paper with different authors) can be addressed by adapting the corresponding query.
+%Nevertheless, we remain convinced that the quality of the data is high enough to obtain an overview over the usage of atomistic simulation co
+%Nevertheless, we remain convinced that the quality of the data is high enough to obtain an overview over the usage of atomistic simulation co
 
 The categorization of codes in terms of methods, tags and licenses is an evolution of the classification devised by the NOMAD list \cite{Ghiringhelli2017}.
+%On licenses: There was a time when any self-respecting computational physicist (or research group) would write their own DFT/FF/... code. Many of the engines available today derive from these codes, and so a flurry of licenses has evolved. 
 For the sake of this data set, the following terminology has been adopted:
 \begin{itemize}
     \item \emph{commercial}: payment required to obtain the software%
@@ -354,6 +499,16 @@ The data is released under version 4 of the Creative Commons Share-Alike Attribu
 The web application is written in JavaScript using the React framework (\url{reactjs.org}) and released under version 3 of the Affero General Public License (AGPL).
 
 \subsection{Trends}
+%Discuss trends at the ecosystem level
+%        (this will involve a number of figures)
+%
+%\begin{itemize}
+%    \item commercial vs free
+%    \item source code availability
+%    \item (possibly) look at codes with large growth rates
+%    \item (possibly) "the rise of the quantum materials science codes" (DFT codes with periodic boundary conditions seem to have grown a lot vs quantum chemistry \& force field codes)
+%    \item (possibly) citation growth in atomistic software compared to general citation growth in STEM
+%\end{itemize}
 
 Extensive cross-checks of \atsoft against other lists \cite{qm-codes-wiki,mm-codes-wiki,sklog-wiki,Pirhadi2016,MolSSI2021} 
 suggest that the collection is already fairly complete,
@@ -394,6 +549,8 @@ It seems safe to conclude, however, that -- while commercial codes remain highly
     \label{fig:code-availability}
 \end{figure}
 
+% Could mention here some other aspect, e.g. wfm vs peridoic DFT
+% or having a look at some of the quickly growing codes
 
 Another important question concerns  source-code availability, which is relevant for the ability of researchers to independently verify published calculations and pin down bugs.
 Figure~\ref{fig:code-availability} shows that consistently at least ${\sim}90\%$ of citations went to engines whose source code is available, strongly dominating over the 12 closed-source codes, whose citations have stagnated%
@@ -422,6 +579,31 @@ We recall here that counting citations in the scientific literature places a foc
     \label{tab:open-source-licenses}
 \end{table}
 
+% 90s lammps gpl
+% 90s gromacs gpl/lgpl
+% 90s-00s qe gpl
+% 90s siesta gpl
+% 00s cp2k gpl
+% 00s openmm mit (CPU, since 2008) / gpl (GPU)
+% 90s abinit gpl
+% 90s wannier90 gpl
+% 90s nwchem ecl (adopted ECL in 2010)
+% 90s octopus lgpl
+% 10s xtb lgpl
+% 70s (psi), 00s psi4 lgpl
+% 00s gpaw gpl
+% 00s dftb+ lgpl
+% 10s pyscf apache
+% 00s openmx gpl
+% 00s raspa mit (switched from GPL 3 to MIT in 2019)
+%  https://github.com/iRASPA/RASPA2/commit/94f487056993d84cee9f2f72b54d788334700a1d
+% 00s epw gpl
+% 00s hoomd-blue bsd
+% 00s yambo gpl
+% 00s elk gpl
+% 10s openmolcas lgpl
+% 00s espresso gpl
+% 00s exciting gpl
 
 While citations to source-available engines have grown by ${\sim}130\%$ since 2010, 
 citations to the 24 open-source engines within that group rose by >300\% within the same time frame, gaining market share.
@@ -446,9 +628,19 @@ The four codes that are distributed under \emph{permissive} licenses (NWChem \ci
 This indicates that the use of permissive licenses is a recent phenomenon in the space of atomistic simulation engines, and may follow in the footsteps of the open-source community at large which is exhibiting a similar trend:
 according to an analysis of over 4 million open-source packages by WhiteSource \cite{WhiteSource2021}, the use of permissive open-source licenses has nearly doubled from 41\% in 2012 to 76\% in 2020, with the Apache and MIT licenses alone accounting for more than half of all licenses that year.
 
+%Viral licenses like the GPL can make it harder for comanies to build on software in proprietary work, and so some have argued for using permissive licenses in scientific open-source software \cite{Stodden2009}.
+%The pros and cons of viral licenses have been an issue of much debate, and other than to point out that outside the scientific software field, wildly popular open source projects exist both with viral and permissive licenses.
 
 
+% Funding of open-source codes
+% Opencollective
+% numfocus
+% foundations (QE, probably more)
 
+% Growth calculation:
+% 2010: 8731+19210=27941
+% 2021: 25673+37006=62679
+% (62679/27941)^(1/10)-1=0.0841
 
 So much about the differences between licensing models. 
 Overall, citations of atomistic simulation engines in the collection have grown at an annual compound growth rate of ${\sim}8\%$, 
@@ -456,11 +648,32 @@ roughly twice the $4\%$ growth rate seen in the publication of peer-reviewed art
 While part of this difference may reflect changing citation practises%
 \footnote{According to Mammola et al., the length of reference lists in ecology journals has been increasing by ${\sim}2\%$ per year over the last two decades. \cite{Mammola2021}},
 it likely indicates an increasing adoption of (atomistic) computational materials science throughout the scientific literature. 
+%It is therefore not a coincidence that papers on computational materials science, and DFT in particular, feature highly in [the highest-cited papers of all time](https://www.nature.com/news/the-top-100-papers-1.16224), and dominate the citation charts in physics.
 
 
 \section{Conclusions \& Outlook}
 
+%There are a number of interesting outlooks that can be discussed here:
 
+%\begin{itemize}
+%    \item outlook on the field of atomistic software
+%    \item outlook on the practice of software citation\\
+%        I'm going to reach out to Lars Holm Nielsen for input here who's been at the forefront
+%        of this with setting up the zenodo-github integration
+%    \item outlook for atomistic.software:
+%        updated continuously (new codes, bug fixes, ...) and will receive yearly updates with new citation data;
+%        possible directions for improvements of the data set
+%    \begin{itemize}
+%        \item likely a handful of codes were missed, add those
+%        \item evolution of scope (e.g. include atomistic visualization/structure manipulation software, workflow tools, ...)
+%        \item complete (and improve) the classification of codes
+%        \item more detailed licensing information
+%        \item possibly temporal resolution of code-level information (license, features, ...)
+%    \end{itemize}
+%    \item outlook for the evolution of the review (this is just the first iteration; possible directions for going forward)
+%\item end with pointers on community feedback: reach out on atomistic.software issue tracker (improvements to web site)
+%    or paper issue tracker (corrections + suggestions for topics to cover in upcoming revisions)
+%\end{itemize}
 
 At the time of writing, the \atsoft collection contains over 60 simulation engines that each gather >100 citations per year, some several hundreds or thousands.
 Overall, this review paints a bright future for the field of atomistic simulation: 
@@ -507,16 +720,39 @@ Finally, they can select the desired citation style and copy the citation into t
     \label{fig:zenodo-github}
 \end{figure}
 
+% * pyscf: started in 2016
+% * openmm: started in 2017
+% * xtb: started in 2020
 
+%  * openmm https://zenodo.org/search?page=1&size=20&q=conceptrecid:%22591297%22&sort=-version&all_versions=True
+%  started releasing on zenodo in 2017 (v7.1)
+%  out of 507 citations, 0 include zenodo (to check)
+%  
+%  Zenodo DOI badge not shown on github repository
+%  Suggested citation in documentation is for journal paper
+%  
+%  
+%  * pyscf https://zenodo.org/record/3826118
+%  Early stages: started releasing on zenodo in 2016 (v1.2)
+%  however, out of the 187 citations only 2 actually cite the zenodo DOI.
+%  https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&as_ylo=2020&as_yhi=2020&q=pyscf+%22chan%22+zenodo&btnG=
+%  zenodo doi badge not shown on github repository
+%  suggested citations go to journal papers
 
+%  * xtb https://zenodo.org/record/4973813
+%  Started in 2020, out of 324, 0 of them cite zenodo
+%  zenodo doi badge not shown on github repository
+%  suggested citations go to journal papers
 
-At least three codes in the \atsoft collection (PySCF \cite{Sun2020a,Sun2020b}, OpenMM \cite{Eastman2017,peastman2020}, and xtb \cite{Bannwarth2021,Grimme2021}) have already enabled the Zenodo-GitHub integration but none of them mention this in their citation recommendations yet, effectively reducing the functionality of the integration to that of a future-proof backup of individual software versions.
-This is a common theme found across software records on Zenodo today \cite{vandeSandt2019a}.
+At least three codes in the \atsoft collection (PySCF \cite{Sun2020a,Sun2020b}, OpenMM \cite{Eastman2017,Eastman2020}, and xtb \cite{Bannwarth2021,Grimme2021}) have already enabled the Zenodo-GitHub integration but none of them mention this in their citation recommendations yet, effectively reducing the functionality of the integration to that of a future-proof backup of individual software versions.
+This is a common theme found across software records on Zenodo today \cite{vandeSandt2019}.
 Part of the reason may be that Zenodo records are not (yet) indexed by the widely used scholarly search engines, such as the Web of Science, Scopus or Google Scholar.
 But as researchers are getting increasingly accustomed to using platforms like Zenodo, the Open Science Framework (\href{https://osf.io}{osf.io}) or Figshare (\href{https://figshare.com}{figshare.com}) for depositing and citing \emph{data sets}, it seems to be just a matter of time until analogous practices in software citation will reach the mainstream.
 Zenodo already \emph{does} track citations of its records through publicly available sources such as Crossref and Europe PubMedCentral (and displays them on the record). 
 Trailblazing developers can therefore recommend their users to cite a version-specific Zenodo DOI in \emph{addition} to a review paper, and thereby get valuable statistics on which versions of their software are being used in return.
 It can also be a convenient way of making a new code citable before a paper has been written on it.
+%However, this approach has drawbacks in practice since it means that the "how to cite" paragraphs have to be updated frequently, which does not happen in practice 
+%In particular, the citation recommendations of all three codes still go to academic papers (none mention the zenodo DOI), and so it is no surprise that < 1\% of citations of these codes go to the zenodo DOIs, as shown by manual checks.
 
 As for the \atsoft collection, this review only marks the beginning.
 Going forward, the collection will receive annual updates, including updates of this perpetual review when warranted.
@@ -532,32 +768,73 @@ potentially evolving the scope of the collection, e.g. to include software for a
 Suggestions for future directions as well as updates and corrections of engine metadata (search keywords, tags, distribution channels, accelerator support, supported APIs, benchmarks, \ldots) are highly welcome,
 be it through public discussions on the \atsoftgit issue tracker, via pull requests to the repository or via private communication to the authors.
 
+%Trials have shown that requiring the author name misses valid matches - e.g. there are many examples of papers that do not provide a reference to a paper but still use a code.
+%% just search for CASTEP -Payne -"Materials Studio"
+%It may make sense to give up the context of "citation" and focus on "mentions" instead (as long as the keyword used is specific enough not to lead to false matches).
+
+
+%One notorious issue has been the difficulty to install
+%this may become easier with cross-platform package managers like conda 
+%(when absolute maximum performance is not required)
 
 
 
 
+%Keep in mind, as you prepare your manuscript, that you should plan for a representative image  which will be used to highlight your article on the journal website and publications. Usually, this would be one of your figures, but it must also be uploaded separately upon article submission. We give specific guidelines for this image on the journal website in the section on article submission (see \url{https://livecomsjournal.github.io/authors/policies/index.html#article-submission}).
+% this will be the word cloud
 
-
-
+%Additionally, for well-formatted manuscripts, we recommend that you let LaTeX handle figure/table placement for you as much as possible, so please avoid specifying strenuous float instructions like `[h!]` and `[H]` as much as possible.
 
 
 \section{Author Contributions}
+%%%%%%%%%%%%%%%%
+% This section mustt describe the actual contributions of
+% author. Since this is an electronic-only journal, there is
+% no length limit when you describe the authors' contributions,
+% so we recommend describing what they actually did rather than
+% simply categorizing them in a small number of
+% predefined roles as might be done in other journals.
+%
+% See the policies ``Policies on Authorship'' section of https://livecoms.github.io
+% for more information on deciding on authorship and author order.
+%%%%%%%%%%%%%%%%
 \textbf{Leopold Talirz:} Conceptualization, Methodology, Software and Data curation for atomistic.software. Writing- Original Draft, Reviewing and Editing.\\
 \textbf{Luca M. Ghiringhelli:} Conceptualization, Methodology and Data curation for the original static version of the collection. Writing- Reviewing and Editing.\\
 \textbf{Berend Smit:} Supervision, Writing- Reviewing and Editing, Funding acquisition
 
+% We suggest you preserve this comment:
+%For a more detailed description of author contributions,
+%see the GitHub issue tracking and changelog at \githubrepository.
 
 \section{Other Contributions}
+%%%%%%%%%%%%%%%
+% You should include all people who have filed issues that were
+% accepted into the paper, or that upon discussion altered what was in the paper.
+% Multiple significant contributions might mean that the contributor
+% should be moved to authorship at the discretion of the a
+%
+% See the policies ``Policies on Authorship'' section of https://livecoms.github.io for
+% more information on deciding on authorship and author order.
+%%%%%%%%%%%%%%%
 The authors are grateful to Nicola Marzari and Matthias Scheffler for sharing their original idea of a list of atomistic simulation codes combined with citation data. 
+%Luca Ghiringhelli for being supportive of this effort to transform the static NOMAD list into an interactive application and a collaborative project.
 Thanks also go to Nicola Marzari for providing the idea for table~\ref{tab:aps-most-cited} and to Kevin Jablonka for a careful reading of the manuscript.
 Insightful discussions with Michele Ceriotti, Lars Holm Nielsen, Kevin Jablonka, Nicola Marzari, and Paul Saxe have contributed to the development of this work, as have numerous constructive suggestions by the anonymous reviewers of the manuscript.
 
+% We suggest you preserve this comment:
 For a more detailed description of contributions from the community and others, see the GitHub issue tracking and changelog at \githubrepository.
 
 \section{Potentially Conflicting Interests}
+%%%%%%%
+%Declare any potentially competing interests, financial or otherwise
+%%%%%%%
 The authors declare no competing interests.
+%Declare any potentially conflicting interests here, whether or not they pose an actual conflict in your view.
 
 \section{Funding Information}
+%%%%%%%
+% Authors should acknowledge funding sources here. Reference specific grants.
+%%%%%%%
 This work was supported by the MARVEL National Centre for Competence in Research funded by the Swiss National Science Foundation (grant agreement ID~51NF40-182892), 
 and the ``MaGic'' project of the European Research Council (grant agreement ID~666983).
 
@@ -566,7 +843,11 @@ and the ``MaGic'' project of the European Research Council (grant agreement ID~6
 
 \printbibliography
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% APPENDICES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%\appendix
 
 
 \end{document}

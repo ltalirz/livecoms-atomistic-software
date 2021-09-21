@@ -151,19 +151,26 @@ giveninits=true, % use initials for given names
 sorting=none,    % print in order of citation
 date=year,       % print year only
 maxnames=3,
-url=false,
+url=true,
 doi=true,
 eprint=false,
-%issn=false,
 isbn=false,
 ]{biblatex}
 
+% Small font
 \renewcommand{\bibfont}{\small}
 
+% Don't put "URL:" in front of URLs
+\DeclareFieldFormat{url}{\url{#1}}
+
+% Don't show page numbers
+%\AtEveryBibitem{\clearfield{pages}}
+
+% Add DOI prefix and reduce font size
 \DeclareFieldFormat
-  [article,inbook,incollection,inproceedings,patent,thesis,unpublished]
+  [article,inbook,incollection,inproceedings,patent,thesis,unpublished,software]
   {doi}{
-\small\url{https://doi.org/#1}}
+  \small\url{\detokenize{https://doi.org/#1}}}
 
 %\DeclareNameAlias{default}{given-family}
 
