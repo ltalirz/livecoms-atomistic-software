@@ -3,7 +3,7 @@
 %%% ADAPTED FROM ELIFE ARTICLE TEMPLATE (8/10/2017)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% PREAMBLE
-\documentclass[9pt,review]{livecoms}
+\documentclass[9pt,review,ASAPversion]{livecoms}
 % Use the 'onehalfspacing' option for 1.5 line spacing
 % Use the 'doublespacing' option for 2.0 line spacing
 % Use the 'lineno' option for adding line numbers.
@@ -20,12 +20,6 @@
 \DeclareSIUnit\Molar{M}
 \usepackage[italic]{mathastext}
 \graphicspath{{figures/}}
-%\usepackage[
-%backend=biber,%
-%bibstyle=numeric-comp,%
-%sorting=none%
-%]{biblatex}
-\addbibresource{atomistic.software.bl.bib}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% IMPORTANT USER CONFIGURATION
@@ -50,7 +44,7 @@
 %\author[2\authfn{1}\authfn{4}]{Firstname Initials Surname}
 %\author[2*]{Firstname Surname}
 \affil[1]{Laboratory of Molecular Simulation (LSMO),
-    Institut des Sciences et Ingenierie Chimiques,
+    Institut des Sciences et Ingénierie Chimiques,
     Valais, \'Ecole Polytechnique F\'ed\'erale de Lausanne,
     CH-1951 Sion, Switzerland}
 \affil[2]{Theory and Simulation of Materials (THEOS),
@@ -88,8 +82,8 @@ CH-1015 Lausanne, Switzerland}
 \pubissue{<issue>}
 \pubyear{<year>}
 \articlenum{<number>}
-\datereceived{Day Month Year}
-\dateaccepted{Day Month Year}
+\datereceived{30 June 2021}
+\dateaccepted{14 September 2021}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% ARTICLE START
@@ -238,7 +232,7 @@ All of them are related to density-functional theory and its application.
         Software & Version & Main language& {Contributors 2020} & {Lines of code} \\ \midrule
         NWChem \cite{Apra2020}&7.0.2&Fortran& 11 &5034139\textsuperscript{*} \\
         LAMMPS \cite{Plimpton1995}&27May2021&C++& 51 & 1039872  \\
-        CP2K \cite{Kuhne2020a}&8.2&Fortran & 38 & 911367 \\
+        CP2K \cite{Kuhne2020}&8.2&Fortran & 38 & 911367 \\
         ABINIT \cite{Gonze2020}&9.4.2&Fortran& 21 & 719048 \\
 Quantum ESPRESSO \cite{Giannozzi2020}&6.7.0&Fortran& 43& 604666 \\
 GROMACS \cite{Abraham2015}&2021.2&C++& 25 & 589108 \\
@@ -841,7 +835,7 @@ and the ``MaGic'' project of the European Research Council (grant agreement ID~6
 \section*{Author Information}
 \makeorcid
 
-\printbibliography
+\bibliography{atomistic.software}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% APPENDICES
