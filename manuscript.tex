@@ -21,6 +21,9 @@
 \usepackage[italic]{mathastext}
 \graphicspath{{figures/}}
 
+\usepackage{url}
+\def\UrlBreaks{\do\/\do-}  %allow URLs to wrap at hyphens
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%% IMPORTANT USER CONFIGURATION
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -780,7 +783,7 @@ be it through public discussions on the \atsoftgit issue tracker, via pull reque
 %Additionally, for well-formatted manuscripts, we recommend that you let LaTeX handle figure/table placement for you as much as possible, so please avoid specifying strenuous float instructions like `[h!]` and `[H]` as much as possible.
 
 
-\section{Author Contributions}
+\section*{Author Contributions}
 %%%%%%%%%%%%%%%%
 % This section mustt describe the actual contributions of
 % author. Since this is an electronic-only journal, there is
@@ -800,7 +803,7 @@ be it through public discussions on the \atsoftgit issue tracker, via pull reque
 %For a more detailed description of author contributions,
 %see the GitHub issue tracking and changelog at \githubrepository.
 
-\section{Other Contributions}
+\section*{Other Contributions}
 %%%%%%%%%%%%%%%
 % You should include all people who have filed issues that were
 % accepted into the paper, or that upon discussion altered what was in the paper.
@@ -818,14 +821,14 @@ Insightful discussions with Michele Ceriotti, Lars Holm Nielsen, Kevin Jablonka,
 % We suggest you preserve this comment:
 For a more detailed description of contributions from the community and others, see the GitHub issue tracking and changelog at \githubrepository.
 
-\section{Potentially Conflicting Interests}
+\section*{Potentially Conflicting Interests}
 %%%%%%%
 %Declare any potentially competing interests, financial or otherwise
 %%%%%%%
 The authors declare no competing interests.
 %Declare any potentially conflicting interests here, whether or not they pose an actual conflict in your view.
 
-\section{Funding Information}
+\section*{Funding Information}
 %%%%%%%
 % Authors should acknowledge funding sources here. Reference specific grants.
 %%%%%%%
