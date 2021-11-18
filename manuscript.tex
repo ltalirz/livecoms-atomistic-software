@@ -603,8 +603,7 @@ We recall here that counting citations in the scientific literature places a foc
 % 00s exciting gpl
 
 While citations to source-available engines have grown by ${\sim}130\%$ since 2010, 
-citations to the 24 open-source engines within that group rose by >300\% within the same time frame, gaining market share.
-In this context, it is useful to recall that the development of several engines on the lists predates the open-source movement and the creation of many of the open-source licenses that are in broad use today (see Table~\ref{tab:open-source-licenses}).
+citations to the 24 open-source engines within that group rose by >300\% within the same time frame, gaining market share in this category.
 \atsoft distinguishes between 
 \begin{itemize}
     \item 
@@ -615,12 +614,13 @@ In this context, it is useful to recall that the development of several engines 
 \emph{permissive} licenses, such as the BSD, Apache, and MIT licenses, which permit relicensing of derivative works.
 \end{itemize}
 
-The enforced sharing of improvements in derivative works can be a competitive advantage of adopting a viral license. 
-It can also be one path towards financial revenue when companies seek a separate license agreement that allows them to keep derivative works proprietary.
-Other developers may want to maximize impact of their software by lowering the barrier for adoption across the board, and thus prefer permissive licenses.
-Overall, the choice of license is highly nuanced and an extensive discussion is beyond the scope of this article (interested readers are referred to \url{choosealicense.com}) but it may be instructive to observe the choices made by the codes in the collection.
+Enforced sharing of improvements in derivative works can be a competitive advantage of adopting a viral license. 
+It can also be one path towards financial revenue when commercial customers, who would like to keep derivative works proprietary, seek a separate license agreement.
+Other developers may instead aim to maximize the impact of their software by lowering the barrier for adoption across the board, and thus prefer permissive licenses.
+Overall, the choice of license is highly nuanced and an extensive discussion of relevant factors is beyond the scope of this article (interested readers are referred to \url{choosealicense.com}) but it may be instructive to observe the choices made by the codes in the collection.
 
-Out of the 24 open-source codes in the \atsoft collection, the majority (20) adopt the GPL or LGPL license.
+When analyzing license choices, it is useful to keep the historical context in mind: the development of several engines in the \atsoft collection \emph{predates} the open-source movement and the creation of many of the open-source licenses that are in broad use today (see Table~\ref{tab:open-source-licenses}).
+Out of the 24 open-source codes, the majority (20) adopt the GPL or LGPL license.
 The four codes that are distributed under \emph{permissive} licenses (NWChem \cite{Apra2020}, OpenMM \cite{Eastman2017}, RASPA \cite{Dubbeldam2016a} and PySCF \cite{Sun2020a}) either switched to this licensing scheme in the late 2000s or 2010s or started being developed during that time.
 This indicates that the use of permissive licenses is a recent phenomenon in the space of atomistic simulation engines, and may follow in the footsteps of the open-source community at large which is exhibiting a similar trend:
 according to an analysis of over 4 million open-source packages by WhiteSource \cite{WhiteSource2021}, the use of permissive open-source licenses has nearly doubled from 41\% in 2012 to 76\% in 2020, with the Apache and MIT licenses alone accounting for more than half of all licenses that year.
@@ -695,7 +695,7 @@ One reason why the citation counts in \atsoft are approximate is that software c
     \item mentioning the code by name in the main text, possibly followed by a key author or company in parentheses,
 \end{itemize}
 similar to what has been found in the field of biology \cite{Howison2016}.
-Furthermore, there is no standardized way of expressing whether a specific version of the software was used or whether the software was referenced as a general concept, e.g. as part of an enumeration of different codes like in this review.
+Furthermore, there is no standardized way of expressing whether a software was \emph{used} (in a specific version) or whether instead the software is being \emph{referenced} as a concept, for example, when listing different codes like in this review.
 
 In order to encourage adoption of a consistent policy for software citation across disciplines and venues, in 2016 the software citation working group of the FORCE11 coalition (\url{force11.org}) issued detailed software citation principles \cite{Smith2016}, which include the recommendation of citing a unique, persistent identifier that indicates which version of the software has been used.
 Today, the technological infrastructure for \emph{creating} these identifiers is in place:
@@ -741,12 +741,12 @@ Finally, they can select the desired citation style and copy the citation into t
 %  zenodo doi badge not shown on github repository
 %  suggested citations go to journal papers
 
-At least three codes in the \atsoft collection (PySCF \cite{Sun2020a,Sun2020b}, OpenMM \cite{Eastman2017,Eastman2020}, and xtb \cite{Bannwarth2021,Grimme2021}) have already enabled the Zenodo-GitHub integration but none of them mention this in their citation recommendations yet, effectively reducing the functionality of the integration to that of a future-proof backup of individual software versions.
+At least three codes in the \atsoft collection (PySCF \cite{Sun2020a,Sun2020b}, OpenMM \cite{Eastman2017,Eastman2020}, and xtb \cite{Bannwarth2021,Grimme2021}) have already enabled the Zenodo-GitHub integration but none of them mention this in their citation recommendations yet, effectively reducing its benefit to that of a future-proof backup of individual software versions.
 This is a common theme found across software records on Zenodo today \cite{vandeSandt2019}.
 Part of the reason may be that Zenodo records are not (yet) indexed by the widely used scholarly search engines, such as the Web of Science, Scopus or Google Scholar.
 But as researchers are getting increasingly accustomed to using platforms like Zenodo, the Open Science Framework (\href{https://osf.io}{osf.io}) or Figshare (\href{https://figshare.com}{figshare.com}) for depositing and citing \emph{data sets}, it seems to be just a matter of time until analogous practices in software citation will reach the mainstream.
 Zenodo already \emph{does} track citations of its records through publicly available sources such as Crossref and Europe PubMedCentral (and displays them on the record). 
-Trailblazing developers can therefore recommend their users to cite a version-specific Zenodo DOI in \emph{addition} to a review paper, and thereby get valuable statistics on which versions of their software are being used in return.
+Trailblazing developers can therefore recommend their users to cite a version-specific Zenodo DOI in \emph{addition} to a review paper, and in return receive valuable statistics on which versions of their software are being used.
 It can also be a convenient way of making a new code citable before a paper has been written on it.
 %However, this approach has drawbacks in practice since it means that the "how to cite" paragraphs have to be updated frequently, which does not happen in practice 
 %In particular, the citation recommendations of all three codes still go to academic papers (none mention the zenodo DOI), and so it is no surprise that < 1\% of citations of these codes go to the zenodo DOIs, as shown by manual checks.
