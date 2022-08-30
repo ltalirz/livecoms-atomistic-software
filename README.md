@@ -22,6 +22,7 @@ Specific changes can be proposed [via pull requests](https://help.github.com/art
 - v0.1: Submitted to LiveCoMS
 - v0.2: Revisions after peer review
 - v0.3: As soon as publishable (ASAP) version
+- v1.0: Published version
 
 ## License
 
